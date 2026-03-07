@@ -9,18 +9,20 @@
 import os
 import re
 import logging
+import argparse
 from dotenv import load_dotenv
 from openai import OpenAI
 
-# 設定日誌格式
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(message)s',
-    handlers=[
-        logging.FileHandler("llm_judge_results.log", encoding="utf-8", mode='w'),
-        logging.StreamHandler()
-    ]
-)
+def setup_logging(output_filename):
+    # 設定日誌格式
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(message)s',
+        handlers=[
+            logging.FileHandler(output_filename, encoding="utf-8", mode='w'),
+            logging.StreamHandler()
+        ]
+    )
 
 def parse_log_file(log_path):
     """
@@ -68,7 +70,7 @@ A VLM was asked to describe what is happening in a video.
 
 Please critically evaluate this description based on the following criteria:
 1. Is the description concise, coherent, and logically sound?
-2. Does it accurately portray a plausible and realistic action/event (avoiding hallucinations)?
+2. Does it accurately portray a plausible and realistic action/event (avoiding hallucinations) of the video?
 
 Weigh strictly. Provide your evaluation in the following exact format:
 Score: [0-10]
@@ -77,10 +79,8 @@ Reason: [Your brief explanation]
     
     try:
         response = client.chat.completions.create(
-            # 如果 gpt-5 模型名稱報錯，請換成 gpt-4o 或您的帳號有權限的最新模型
             model="gpt-5", 
             messages=[{"role": "user", "content": judge_prompt}],
-            max_tokens=150,
             temperature=0.3
         )
         return response.choices[0].message.content.strip()
@@ -88,8 +88,18 @@ Reason: [Your brief explanation]
         return f"Judge 評估失敗: {e}"
 
 def main():
-    # 載入 .env 檔案與 OpenAI 金鑰
-    load_dotenv()
+    parser = argparse.ArgumentParser(description="Use GPT-5 to judge VLM results from a log file.")
+    parser.add_argument("log_file", type=str, nargs="?", default="gemma3-4b_details.log",
+                        help="Path to the .log file to evaluate (e.g. gemma3-4b_details.log)")
+    args = parser.parse_args()
+
+    # 自動根據輸入檔名命名輸出的判斷結果 Log
+    log_name = os.path.splitext(os.path.basename(args.log_file))[0]
+    output_log_file = f"{log_name}_judge_results.log"
+    setup_logging(output_log_file)
+    
+    # 載入 .env 檔案與 OpenAI 金鑰，強制覆蓋以免吃到系統舊變數
+    load_dotenv(override=True)
     api_key = os.environ.get("OPENAI_API_KEY")
     
     if not api_key:
@@ -98,8 +108,8 @@ def main():
         
     client = OpenAI(api_key=api_key)
     
-    # 讀取剛剛生成的 log
-    log_file_path = "gemma3-4b_details.log"
+    # 讀取指定的 log 檔案
+    log_file_path = args.log_file
     logging.info(f"開始解析紀錄檔: {log_file_path}")
     
     items_to_judge = parse_log_file(log_file_path)
