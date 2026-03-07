@@ -96,6 +96,7 @@ def main():
     
     results = []
     total_time = 0.0
+    total_generated_tokens = 0
     successful_runs = 0
     num_sampled_frames = 8 
     
@@ -154,21 +155,27 @@ def main():
             
             end_time = time.time()
             elapsed = end_time - start_time
+            num_generated_tokens = len(generated_ids)
+            tps = num_generated_tokens / elapsed if elapsed > 0 else 0
             
             logging.info(f"⏱️ 耗時: {elapsed:.2f} 秒")
+            logging.info(f"⚡ 速度: {tps:.2f} tokens/sec ({num_generated_tokens} tokens)")
             logging.info(f"🤖 模型回答:\n{response.strip()}")
             
             # 每處理完一支影片，立刻把結果寫入 log 避免中斷遺失
             with open("gemma3_kinetics_results_details.log", "a", encoding="utf-8") as f:
-                f.write(f"影片: {v_path}\n耗時: {elapsed:.2f} 秒\n回答: {response.strip()}\n{'-'*30}\n")
+                f.write(f"影片: {v_path}\n耗時: {elapsed:.2f} 秒\n速度: {tps:.2f} tokens/sec\n回答: {response.strip()}\n{'-'*30}\n")
                 
             results.append({
                 "video": v_path,
                 "time": elapsed,
+                "tokens": num_generated_tokens,
+                "tps": tps,
                 "response": response.strip()
             })
             
             total_time += elapsed
+            total_generated_tokens += num_generated_tokens
             successful_runs += 1
             
         except Exception as e:
@@ -177,10 +184,17 @@ def main():
     # 統計並輸出最終結果
     if successful_runs > 0:
         avg_time = total_time / successful_runs
+        avg_tps = total_generated_tokens / total_time if total_time > 0 else 0
+        # peak_vram = torch.cuda.max_memory_allocated() / (1024 ** 3)
+        
         logging.info(f"\n{'='*20} 測試總結 {'='*20}")
         logging.info(f"成功處理影片數  : {successful_runs} / {sample_size}")
         logging.info(f"總耗費時間      : {total_time:.2f} 秒")
+        logging.info(f"總生成 Tokens 數: {total_generated_tokens}")
         logging.info(f"平均每支影片耗時: {avg_time:.2f} 秒")
+        logging.info(f"整體生成速度    : {avg_tps:.2f} tokens/sec")
+        # if torch.cuda.is_available():
+        #    logging.info(f"GPU 最高記憶體佔用: {peak_vram:.2f} GB")
         logging.info("詳細測試結果已隨時記錄於 gemma3_kinetics_results_details.log 與 gemma3_kinetics_results.log")
 
 if __name__ == "__main__":
