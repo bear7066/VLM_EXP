@@ -61,7 +61,7 @@ def main():
     )
 
     # instruction tuning: google/gemma-3-1b-it, 4b
-    model_id = "google/gemma-3-1b-it" # google/gemma-3-4b-it
+    model_id = "google/gemma-3-12b-it" # google/gemma-3-4b-it
     
     logging.info(f"載入模型與處理器: {model_id} ...")
     try:
@@ -91,7 +91,7 @@ def main():
     logging.info(f"開始測試，隨機抽取 {sample_size} 支影片進行推論...")
     
     prompt_text = (
-        "Describe what's happening in the video with the main action or activity."
+        "Describe what's happening in the video with the main action or activity with concise words(less than 20 words)"
     )
     
     results = []
