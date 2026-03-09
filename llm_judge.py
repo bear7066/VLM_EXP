@@ -76,8 +76,8 @@ def parse_log_file(log_path):
 
 def evaluate_with_gpt5(client, answer, label):
     judge_prompt = f"""
-You are an expert, impartial evaluator for Vision-Language Models (VLMs). 
-A VLM was asked to describe what is happening in a video.
+You are an expert, impartial evaluator for Vision-Language Models (VLMs).
+A VLM was asked to "Describe the main action accurately in under 10 words" for a video.
 
 [Ground Truth Action]
 The true action happening in the video is: {label}
@@ -86,13 +86,13 @@ The true action happening in the video is: {label}
 "{answer}"
 
 Please critically evaluate this description based on the following criteria:
-1. Is the description concise, coherent, and logically sound?
-2. Does it accurately identify and describe the ground truth action ({label})? Does it avoid hallucinations?
-3. Answer with concise and clear explanation(less than 20 words).
+1. Did the VLM successfully identify the core action ({label})?
+2. Did the VLM follow the length constraint (under 10 words)?
+3. Is it free from irrelevant background details or hallucinations?
 
 Weigh strictly. Provide your evaluation in the following exact format:
 Score: [0-10]
-Reason: [Your brief explanation]
+Reason: [Your brief explanation, max 20 words]
 """
     
     try:
