@@ -1,0 +1,333 @@
+開始解析紀錄檔: gemma-3-12b-it/face_planting.log
+成功解析出 46 筆待評估紀錄。
+
+🚀 開始執行 LLM-as-a-Judge 評估...
+
+[1/46] 正在評估影片: face_planting/faceplanting_RhL1gAwe9K4.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A man performs a daring, upside-down hang on a trampoline.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Misses core action, face planting; irrelevant details of trampoline and upside-down hang present.
+--------------------------------------------------
+[2/46] 正在評估影片: face_planting/faceplanting_XmpAlvVJyfQ.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A snowboarder attempts a trick and falls in the snow.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Accurately identifies fall, but misses "face planting" specificity. No irrelevant details.
+--------------------------------------------------
+[3/46] 正在評估影片: face_planting/faceplanting__3Sd76OyNxo.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A person falls while sledding down a snowy hill.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Identified relevant action (falling) but missed specificity of "face planting"; no irrelevant details.
+--------------------------------------------------
+[4/46] 正在評估影片: face_planting/faceplanting_MaYeShN2k8I.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A boy falls while attempting a jump or trick.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Captures fall but misses crucial "face planting" detail; no irrelevant details.
+--------------------------------------------------
+[5/46] 正在評估影片: face_planting/faceplanting_Kj725DEceik.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A person playfully throws a blanket over a bed.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: The VLM failed to identify the core action and hallucinated irrelevant details.
+--------------------------------------------------
+[6/46] 正在評估影片: face_planting/faceplanting_m84Zlf4UxK0.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: Two boys navigate an obstacle course, one falling off a beam.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 5  
+Reason: Identifies obstacle fall, not face planting, with some irrelevant details.
+--------------------------------------------------
+[7/46] 正在評估影片: face_planting/faceplanting_Z-beIVl_wPs.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A person attempts a jump and falls face-first into the sand.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Accurately describes core action with relevant context; no irrelevant details or hallucinations.
+--------------------------------------------------
+[8/46] 正在評估影片: face_planting/faceplanting_M7fnZthnKv0.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A person on a skateboard falls and slides on the pavement.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Accurately describes fall; misses "face planting" specificity, yet no irrelevant details present.
+--------------------------------------------------
+[9/46] 正在評估影片: face_planting/faceplanting_Q3LkU_qIANE.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: Person falls while snowboarding in the snow.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Accurately describes the action with relevant details, closely aligned with "face planting." No irrelevant details.
+--------------------------------------------------
+[10/46] 正在評估影片: face_planting/faceplanting_4FgYoZSabV0.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: Mountain biker attempts a trick and crashes into the dirt.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Accurately describes crash but misses "face planting"; free from irrelevant details.
+--------------------------------------------------
+[11/46] 正在評估影片: face_planting/faceplanting_o5FiLY-wObk.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A man falls while running from a caiman.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 4  
+Reason: Identifies falling, not face planting; includes irrelevant "caiman" detail.
+--------------------------------------------------
+[12/46] 正在評估影片: face_planting/faceplanting_ZLFkNSl-XPw.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A student falls after a tire swing accident.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Accurately describes falling, but misses "face planting" specificity; no irrelevant details.
+--------------------------------------------------
+[13/46] 正在評估影片: face_planting/faceplanting_wF-7CEJZ4w8.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A person performs a backflip in a large gym.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: VLM failed to identify core action; description contains irrelevant gym setting detail.
+--------------------------------------------------
+[14/46] 正在評估影片: face_planting/faceplanting_X7ztDnayQAo.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: Here's a description of the main action in under 10 words:
+
+A man playfully throws a child off a trampoline.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Description missed core action, included hallucinated trampoline and playful throw.
+--------------------------------------------------
+[15/46] 正在評估影片: face_planting/faceplanting_mk9eyW1bzAU.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: Group of young men playfully wrestle in the surf on a beach.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Missed core action; contains irrelevant details about wrestling and beach activity.
+--------------------------------------------------
+[16/46] 正在評估影片: face_planting/faceplanting_VO37FL6Qo7c.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A child on a ride-on toy crashes into a ramp.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Identifies a crash but misses core action "face planting"; no irrelevant details.
+--------------------------------------------------
+[17/46] 正在評估影片: face_planting/faceplanting_nsjqgD_St9w.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A young child playfully dances and crawls around a room.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: The description misses core action "face planting" and includes irrelevant details like "dances and crawls around."
+--------------------------------------------------
+[18/46] 正在評估影片: face_planting/faceplanting_Us1OJs0UxE0.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: Here's a description of the main action in under 10 words:
+
+A child is struggling on a bed near a door.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: The description misses the core action "face planting" and includes irrelevant details like "bed" and "door."
+--------------------------------------------------
+[19/46] 正在評估影片: face_planting/faceplanting_piCD8qYAMVI.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A person slips and falls on a snowy field.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Accurately captures slip and fall; misses "face planting" specificity. No irrelevant details.
+--------------------------------------------------
+[20/46] 正在評估影片: face_planting/faceplanting_TAG04GA-p_Q.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A child crawls away from a slide, assisted by an adult.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Description missed core action "face planting" and included irrelevant actions not central to video content.
+--------------------------------------------------
+[21/46] 正在評估影片: face_planting/faceplanting_QbyBACtRcz8.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: Two babies play on a bed, one pretending to talk on a phone.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Misses core action "face planting," instead describes irrelevant actions and hallucinations of babies and a phone.
+--------------------------------------------------
+[22/46] 正在評估影片: face_planting/faceplanting_DnxygkTssDc.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A baby is moving around in a playpen.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Misses core action; irrelevant details included, fails to mention face planting.
+--------------------------------------------------
+[23/46] 正在評估影片: face_planting/faceplanting_11YmgupLXYE.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A person performs a handstand and falls over.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Captures fall but misses "face planting"; lacks irrelevant details.
+--------------------------------------------------
+[24/46] 正在評估影片: face_planting/faceplanting_SBWpjWPvFho.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: Students restrain a classmate in a classroom setting.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Failed to identify core action; includes irrelevant details and hallucinations.
+--------------------------------------------------
+[25/46] 正在評估影片: face_planting/faceplanting_2zHDlGlWTG8.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: Man on scooter attempts jump, crashes into wall.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 6  
+Reason: Accurately mentions crash but misses "face planting" specific detail. No irrelevant details included.
+--------------------------------------------------
+[26/46] 正在評估影片: face_planting/faceplanting_wjmyNaK6TRc.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A boat is towing a wakeboarder across a lake.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Description misses core action "face planting" and includes irrelevant details like "boat towing across lake."
+--------------------------------------------------
+[27/46] 正在評估影片: face_planting/faceplanting_D9x20LIhb9Y.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A child on a bike falls down a hill.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Accurately captures the fall action without irrelevant details; misses "face planting" specificity.
+--------------------------------------------------
+[28/46] 正在評估影片: face_planting/faceplanting_koMIvXhfe9c.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A person attempts a flip and falls in the sand.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Accurately describes action, but lacks the specificity of 'face planting' term. No irrelevant details included.
+--------------------------------------------------
+[29/46] 正在評估影片: face_planting/faceplanting_DAeLsJBXaAA.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: Here's a description of the main action in under 10 words:
+
+A cyclist performs a complex bike stunt over a ramp.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Misses core action (face planting), provides irrelevant detail (bike stunt). Minimal relevance to ground truth.
+--------------------------------------------------
+[30/46] 正在評估影片: face_planting/faceplanting_phVppFzTgkA.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A person jumps from a height and appears to be injured.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 6  
+Reason: Identifies injury relevance, misses "face planting," no irrelevant details or hallucinations.
+--------------------------------------------------
+[31/46] 正在評估影片: face_planting/faceplanting_JR9LTG9F4j0.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A snowboarder speeds down an icy slope with a scenic view.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Missed core action; description focused on unrelated details, not the face planting event.
+--------------------------------------------------
+[32/46] 正在評估影片: face_planting/faceplanting_gfO5b9MkeYw.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: Cheerleader falls during a tumbling routine in a competition.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Identifies fall action well; "cheerleader," "tumbling," and "competition" add slightly relevant context but not essential.
+--------------------------------------------------
+[33/46] 正在評估影片: face_planting/faceplanting__wJfPEwJn_s.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A toddler playfully runs towards a door, smiling.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Missed core action; irrelevant details instead of describing "face planting."
+--------------------------------------------------
+[34/46] 正在評估影片: face_planting/faceplanting_kr4B88Ldgso.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A toddler sits on a slide, then falls off.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 4  
+Reason: Misses core action "face planting"; includes partial relevant action "falls off." No irrelevant details.
+--------------------------------------------------
+[35/46] 正在評估影片: face_planting/faceplanting_ZObLHal3oPg.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A person trips and falls while attempting to jump over barrels.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: The VLM accurately captured tripping and falling, relevant to face planting, with no irrelevant details.
+--------------------------------------------------
+[36/46] 正在評估影片: face_planting/faceplanting_e7AnmQTKegM.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: Person snowboarding down a snowy slope, creating a shadow.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Missed core action, focused on background; mentioned irrelevant shadow.
+--------------------------------------------------
+[37/46] 正在評估影片: face_planting/faceplanting_-dLXIIjWS-c.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A child kneels in the snow, throwing snow with a sled.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 1  
+Reason: Description misses core action, includes irrelevant actions, and possibly hallucinates unrelated details.
+--------------------------------------------------
+[38/46] 正在評估影片: face_planting/faceplanting_kIhT0fUUPK0.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A woman falls off a wakeboard into the water.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 6  
+Reason: Describes action context, but misses "face planting." No irrelevant details present.
+--------------------------------------------------
+[39/46] 正在評估影片: face_planting/faceplanting_ng_6Awo2Luo.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A toddler crawls on a blue blanket on the floor.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Description misses core action and includes irrelevant crawling detail, not directly related to face planting.
+--------------------------------------------------
+[40/46] 正在評估影片: face_planting/faceplanting_7IWBLXPrxoQ.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A dog and a person slide down a snowy hill.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 4  
+Reason: Captures sliding action but misses "face planting"; description lacks core action focus.
+--------------------------------------------------
+[41/46] 正在評估影片: face_planting/faceplanting_oxPAGFHhE5s.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A cyclist rides through a dirt bike jump track.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: The VLM misses the core action and focuses on irrelevant cycling details.
+--------------------------------------------------
+[42/46] 正在評估影片: face_planting/faceplanting_wEW0geZNjF4.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A cyclist crashes while attempting a ramp trick.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Identifies crash action; misses term "face planting" but avoids irrelevant details.
+--------------------------------------------------
+[43/46] 正在評估影片: face_planting/faceplanting_Te8kzu0-N7I.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A child on a tricycle crashes into a bush.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 5  
+Reason: Identifies crash but misses "face planting"; includes accurate setting without extraneous details.
+--------------------------------------------------
+[44/46] 正在評估影片: face_planting/faceplanting_neeVaqbf7wI.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A person throws disposable cups off a table.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: The description fails to identify the core action and contains irrelevant actions.
+--------------------------------------------------
+[45/46] 正在評估影片: face_planting/faceplanting_Oinr3wRnArM.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: A child playfully falls into a muddy puddle.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Captures the action contextually but lacks precise labeling as "face planting." No irrelevant details present.
+--------------------------------------------------
+[46/46] 正在評估影片: face_planting/faceplanting_T4wf6w_HqUs.mp4 (Ground Truth: face planting)
+🤖 VLM 回答內容: Person falls while sledding on a snowy, icy surface.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Accurately describes action but lacks specific mention of "face planting" term. No irrelevant details.
+--------------------------------------------------

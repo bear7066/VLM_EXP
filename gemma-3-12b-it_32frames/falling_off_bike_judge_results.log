@@ -1,0 +1,322 @@
+開始解析紀錄檔: gemma-3-12b-it/falling_off_bike.log
+成功解析出 45 筆待評估紀錄。
+
+🚀 開始執行 LLM-as-a-Judge 評估...
+
+[1/45] 正在評估影片: falling_off_bike/falling_off_bike_WWjDVZAIxrA.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A cyclist attempts a trick and falls off their bike.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Accurately identifies core action; includes minor detail ("attempts a trick") that's relevant but not purely essential.
+--------------------------------------------------
+[2/45] 正在評估影片: falling_off_bike/falling_off_bike_u386WjrxTuM.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A shirtless boy on a bike falls into a pond.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Core action identified well; minor irrelevant detail about "pond" included that may distract.
+--------------------------------------------------
+[3/45] 正在評估影片: falling_off_bike/falling_off_bike_k73Go_-hE-I.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A person falls off a ramp while riding a bike.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Captures main action precisely with minimal extra detail (ramp). No hallucinations.
+--------------------------------------------------
+[4/45] 正在評估影片: falling_off_bike/falling_off_bike__9wbSErLcT4.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A person on a bicycle rides through a narrow passage.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Core action not identified; description irrelevant to falling; no hallucinations but misses main action.
+--------------------------------------------------
+[5/45] 正在評估影片: falling_off_bike/falling_off_bike_rhCVjp71CRU.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A cyclist crashes on a dirt path while riding.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Correctly identifies the fall; mentions crash incident and relevant setting, no hallucinations.
+--------------------------------------------------
+[6/45] 正在評估影片: falling_off_bike/falling_off_bike_GNjsTEp_J8E.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A person on a bicycle performs a stunt over a log.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 3  
+Reason: Fails to identify falling; hallucinated stunt over a log, adding irrelevant details.
+--------------------------------------------------
+[7/45] 正在評估影片: falling_off_bike/falling_off_bike_vg4T4Ts3KdU.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A cyclist attempts a backflip and crashes into the dirt.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Captures fall off bike essence, but adds unverified detail about a backflip attempt.
+--------------------------------------------------
+[8/45] 正在評估影片: falling_off_bike/falling_off_bike_9EqDdRaHEZE.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A cyclist attempts a trick and crashes onto a board.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Identifies crash but mentions incorrect detail (board), partially misrepresenting "falling off bike."
+--------------------------------------------------
+[9/45] 正在評估影片: falling_off_bike/falling_off_bike_4y0ujkNbul8.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A child falls off a bike while attempting a ramp.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Core action identified accurately; minimal background detail enhances rather than distracts.
+--------------------------------------------------
+[10/45] 正在評估影片: falling_off_bike/falling_off_bike_Zt4pZsUXLwU.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A child on a bike crashes and falls.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Accurately identifies core action (crashes and falls) without irrelevant details or hallucinations.
+--------------------------------------------------
+[11/45] 正在評估影片: falling_off_bike/falling_off_bike_qKScacoGAwE.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A man on a bicycle crashes while carrying a passenger.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Identified crash action well; added detail "carrying a passenger" is slightly extraneous but not a hallucination.
+--------------------------------------------------
+[12/45] 正在評估影片: falling_off_bike/falling_off_bike_p8Jt6ROutMo.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A biker crashes while attempting a jump over a dirt mound.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 6  
+Reason: VLM partially identifies core action but adds unnecessary detail about the dirt mound.
+--------------------------------------------------
+[13/45] 正在評估影片: falling_off_bike/falling_off_bike_I10wpW-lYPM.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A boy falls off his bike in a grassy park.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Accurately identified core action; only minor deviation with additional detail about location.
+--------------------------------------------------
+[14/45] 正在評估影片: falling_off_bike/falling_off_bike_Hrt2-YSJaBM.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A cyclist crashes into a pole and falls.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Correctly identifies fall, adds irrelevant "pole" in crash, partially aligns with core action.
+--------------------------------------------------
+[15/45] 正在評估影片: falling_off_bike/falling_off_bike_4kU-hbhQ9is.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A dog chases a cyclist down a street.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: Description misses core action and includes nonexistent details (dog chases cyclist).
+--------------------------------------------------
+[16/45] 正在評估影片: falling_off_bike/falling_off_bike_7PcdoivSB3w.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A boy attempts a bike trick and falls.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Accurately identifies falling, minimally expands with relevant trick attempt; no irrelevant details.
+--------------------------------------------------
+[17/45] 正在評估影片: falling_off_bike/falling_off_bike_USCaphYBPOg.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A person attempts a bike stunt and falls.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Accurately captures falling action; "bike stunt" detail is minimally extraneous.
+--------------------------------------------------
+[18/45] 正在評估影片: falling_off_bike/falling_off_bike_W6M1Y_RYQIY.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A child falls off a bike while attempting a ramp trick.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Accurately captures core action; additional context enhances understanding without irrelevant details.
+--------------------------------------------------
+[19/45] 正在評估影片: falling_off_bike/falling_off_bike_F5rWXJiw4Z4.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A mountain biker descends a winding trail through a forest.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Description misses core action (falling) and includes irrelevant details (trail, forest).
+--------------------------------------------------
+[20/45] 正在評估影片: falling_off_bike/falling_off_bike_AVLCPu4UaPE.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A young boy falls off his bike while attempting a wheelie.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Accurately identifies core action; minor additional detail on wheelie attempt is relevant, not extraneous.
+--------------------------------------------------
+[21/45] 正在評估影片: falling_off_bike/falling_off_bike_6bIMrpU6ils.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A person rides a unicycle down a dirt road.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: Failed to identify action and includes irrelevant details about unicycle riding.
+--------------------------------------------------
+[22/45] 正在評估影片: falling_off_bike/falling_off_bike_vz8oSbQi_mM.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A cyclist attempts a ramp jump and crashes.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Captures core action with slight embellishment; crash implies falling, no hallucinations.
+--------------------------------------------------
+[23/45] 正在評估影片: falling_off_bike/falling_off_bike_X5QyTM7XAjo.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A cyclist falls off their bike in a park.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Accurately describes core action with slight irrelevancy due to mentioning "in a park."
+--------------------------------------------------
+[24/45] 正在評估影片: falling_off_bike/falling_off_bike_GcWGUxG-qYo.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: Motorcyclist crashes on a dirt road, resulting in a dust cloud.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Identifies core action (crash), lacks minor precision, minimal irrelevant details.
+--------------------------------------------------
+[25/45] 正在評估影片: falling_off_bike/falling_off_bike_4VpUtUGcJzE.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: Group of bikers perform stunts, one crashes, bikes scattered.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Identifies core action (crash); includes extra details (bikers, stunts). Accurate, but slightly verbose.
+--------------------------------------------------
+[26/45] 正在評估影片: falling_off_bike/falling_off_bike_7qZvo1A3MRQ.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A man on a bicycle pushes a car into a container.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: Description fails to identify core action; includes unrelated and incorrect details.
+--------------------------------------------------
+[27/45] 正在評估影片: falling_off_bike/falling_off_bike_wWEnYiHzorg.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A young boy falls off his bike in a narrow alley.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: VLM accurately identified core action with minimal irrelevant details; slightly broader context mentioned.
+--------------------------------------------------
+[28/45] 正在評估影片: falling_off_bike/falling_off_bike_KZZ2ySZ2oC8.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: Man riding a small bike crashes into a curb.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: VLM identified crash, implying fall, with minimal irrelevant details.
+--------------------------------------------------
+[29/45] 正在評估影片: falling_off_bike/falling_off_bike_SocGMDzqthw.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A cyclist crashes after being bumped by another cyclist.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Captures core action "crashes" with slight exaggeration; accurate and free of irrelevant details.
+--------------------------------------------------
+[30/45] 正在評估影片: falling_off_bike/falling_off_bike_G_w2dLWeQfY.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: Here's a description of the main action in under 10 words:
+
+Two people on bikes crash, resulting in injuries.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Description captures the crash but adds unnecessary injury details, straying slightly from core action "falling."
+--------------------------------------------------
+[31/45] 正在評估影片: falling_off_bike/falling_off_bike_puUZXLmpJKI.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: Person fell off a bike in a park.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Accurately identifies core action; minor context added without irrelevant details.
+--------------------------------------------------
+[32/45] 正在評估影片: falling_off_bike/falling_off_bike_0US_tIy2xAg.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A person on a BMX bike attempts a trick and falls.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Accurately identifies core action; minimal extraneous details included.
+--------------------------------------------------
+[33/45] 正在評估影片: falling_off_bike/falling_off_bike_W8fpOGSD_7M.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A person falls off a bicycle onto the pavement.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Accurately identifies the core action with no irrelevant details or hallucinations.
+--------------------------------------------------
+[34/45] 正在評估影片: falling_off_bike/falling_off_bike_WGHj7LBp2t8.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A person falls while attempting to cross a bridge.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Captures fall but adds unnecessary context about crossing a bridge.
+--------------------------------------------------
+[35/45] 正在評估影片: falling_off_bike/falling_off_bike_QXlLnjld17U.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A boy falls off his bike while another watches.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Accurately identifies core action; "another watches" adds context without irrelevant details.
+--------------------------------------------------
+[36/45] 正在評估影片: falling_off_bike/falling_off_bike_QcutxgXwENE.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A cyclist crashes on a dirt path in the woods.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Captures action accurately; minor detail of "woods" may add context but isn't irrelevant.
+--------------------------------------------------
+[37/45] 正在評估影片: falling_off_bike/falling_off_bike_YawF29t8FRY.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A person falls off a bicycle in a forest.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 10  
+Reason: Accurately identifies core action, free from irrelevant details or hallucinations.
+--------------------------------------------------
+[38/45] 正在評估影片: falling_off_bike/falling_off_bike_ggi3XwH4vPo.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A person on a bike rides across a makeshift muddy bridge.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Fails to identify core action; describes irrelevant background instead, missing "falling."
+--------------------------------------------------
+[39/45] 正在評估影片: falling_off_bike/falling_off_bike_0uf2P7BX1vs.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: Man attempts bike trick on a trampoline and falls.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Captures core action; includes minimal extra context without hallucination.
+--------------------------------------------------
+[40/45] 正在評估影片: falling_off_bike/falling_off_bike_Tl1a49pTtak.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A cyclist crashes on a concrete surface.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: VLM captures core action accurately; minimal irrelevant details or hallucinations present.
+--------------------------------------------------
+[41/45] 正在評估影片: falling_off_bike/falling_off_bike_ENfmLM2-ZDQ.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: Mountain biker crashes into a stream while crossing a bridge.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 5  
+Reason: Description includes irrelevant details; core action (falling off bike) is implied but not explicitly stated.
+--------------------------------------------------
+[42/45] 正在評估影片: falling_off_bike/falling_off_bike_GduBJtZHDGM.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A person performs a wheelie on a bicycle at night.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Incorrect core action; mentions irrelevant details like performing a wheelie and nighttime setting.
+--------------------------------------------------
+[43/45] 正在評估影片: falling_off_bike/falling_off_bike_-c0s5FYBWTQ.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A child on a bicycle is riding down a sidewalk.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Missed core action; described riding, not falling. No hallucinations, but incomplete action recognition.
+--------------------------------------------------
+[44/45] 正在評估影片: falling_off_bike/falling_off_bike_AxMf6X5_A3A.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A person on a bike performs a wheelie and jumps.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Description misses core action, includes hallucinated 'wheelie' and 'jumps', not observed.
+--------------------------------------------------
+[45/45] 正在評估影片: falling_off_bike/falling_off_bike_RluniDxJ-io.mp4 (Ground Truth: falling off bike)
+🤖 VLM 回答內容: A person on a motorbike kicks up a large dust cloud.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Missed core action; described irrelevant detail without relevance to "falling off bike."
+--------------------------------------------------

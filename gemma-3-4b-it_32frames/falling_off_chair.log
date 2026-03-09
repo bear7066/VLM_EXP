@@ -1,0 +1,378 @@
+載入模型與處理器: google/gemma-3-4b-it ...
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/processor_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/google/gemma-3-4b-it/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/processor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/chat_template.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/google/gemma-3-4b-it/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/processor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/chat_template.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/processor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/preprocessor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/processor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/preprocessor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/google/gemma-3-4b-it/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/google/gemma-3-4b-it/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/google/gemma-3-4b-it "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/generation_config.json "HTTP/1.1 200 OK"
+從 falling_off_chair 尋找，共找到 43 支影片。
+開始測試，隨機抽取 43 支影片進行推論...
+==================================================
+[1/43] 處理影片: falling_off_chair/falling_off_chair_8LsomoWHlK0.mp4
+開始生成回答...
+⏱️ 耗時: 2.41 秒
+⚡ 速度: 4.16 tokens/sec (10 tokens)
+🤖 模型回答:
+Woman collapses onto the floor from a chair.
+------------------------------
+==================================================
+[2/43] 處理影片: falling_off_chair/falling_off_chair_YqW9B4aedKE.mp4
+開始生成回答...
+⏱️ 耗時: 2.02 秒
+⚡ 速度: 4.46 tokens/sec (9 tokens)
+🤖 模型回答:
+Student playfully balances on a classroom table.
+------------------------------
+==================================================
+[3/43] 處理影片: falling_off_chair/falling_off_chair_-5hw88bD4mE.mp4
+開始生成回答...
+⏱️ 耗時: 2.04 秒
+⚡ 速度: 4.90 tokens/sec (10 tokens)
+🤖 模型回答:
+Woman violently assaults another person with a chair.
+------------------------------
+==================================================
+[4/43] 處理影片: falling_off_chair/falling_off_chair_IuWPZJHWVYA.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.88 tokens/sec (10 tokens)
+🤖 模型回答:
+Woman hangs upside down on a playground structure.
+------------------------------
+==================================================
+[5/43] 處理影片: falling_off_chair/falling_off_chair_-tTBQvmKfEs.mp4
+開始生成回答...
+⏱️ 耗時: 1.99 秒
+⚡ 速度: 4.02 tokens/sec (8 tokens)
+🤖 模型回答:
+Man falls awkwardly from a chair.
+------------------------------
+==================================================
+[6/43] 處理影片: falling_off_chair/falling_off_chair_WD87x58wRsE.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.87 tokens/sec (10 tokens)
+🤖 模型回答:
+A person is awkwardly balancing on a stool.
+------------------------------
+==================================================
+[7/43] 處理影片: falling_off_chair/falling_off_chair_kwh65tVZyik.mp4
+開始生成回答...
+⏱️ 耗時: 2.06 秒
+⚡ 速度: 5.35 tokens/sec (11 tokens)
+🤖 模型回答:
+Child playfully flips upside down near a ceiling fan.
+------------------------------
+==================================================
+[8/43] 處理影片: falling_off_chair/falling_off_chair_3Ctreec2zrQ.mp4
+開始生成回答...
+⏱️ 耗時: 2.03 秒
+⚡ 速度: 4.43 tokens/sec (9 tokens)
+🤖 模型回答:
+Two men playfully collapse onto the floor.
+------------------------------
+==================================================
+[9/43] 處理影片: falling_off_chair/falling_off_chair_y1OlPGzMbNA.mp4
+開始生成回答...
+⏱️ 耗時: 2.07 秒
+⚡ 速度: 5.31 tokens/sec (11 tokens)
+🤖 模型回答:
+Girl laughs joyfully while leaning on a chair.
+------------------------------
+==================================================
+[10/43] 處理影片: falling_off_chair/falling_off_chair_uG1ZPoaMync.mp4
+開始生成回答...
+⏱️ 耗時: 2.03 秒
+⚡ 速度: 4.43 tokens/sec (9 tokens)
+🤖 模型回答:
+Man falls down a wooden deck stairs.
+------------------------------
+==================================================
+[11/43] 處理影片: falling_off_chair/falling_off_chair_XMKm4hjLFXk.mp4
+開始生成回答...
+⏱️ 耗時: 2.04 秒
+⚡ 速度: 4.89 tokens/sec (10 tokens)
+🤖 模型回答:
+A struggle involving two men and a chair.
+------------------------------
+==================================================
+[12/43] 處理影片: falling_off_chair/falling_off_chair_N516jor-Y5I.mp4
+開始生成回答...
+⏱️ 耗時: 2.06 秒
+⚡ 速度: 4.87 tokens/sec (10 tokens)
+🤖 模型回答:
+Woman sits, using laptop in dim lighting.
+------------------------------
+==================================================
+[13/43] 處理影片: falling_off_chair/falling_off_chair_0xJzTTPKfXo.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.87 tokens/sec (10 tokens)
+🤖 模型回答:
+Man lying on the floor, seemingly intoxicated.
+------------------------------
+==================================================
+[14/43] 處理影片: falling_off_chair/falling_off_chair_Zi0fm17UBZE.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.88 tokens/sec (10 tokens)
+🤖 模型回答:
+A violent assault occurs in a crowded bar.
+------------------------------
+==================================================
+[15/43] 處理影片: falling_off_chair/falling_off_chair_l3U5BF9jUa4.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.88 tokens/sec (10 tokens)
+🤖 模型回答:
+Person awkwardly falls and rolls under shelving unit.
+------------------------------
+==================================================
+[16/43] 處理影片: falling_off_chair/falling_off_chair_6Bkk_IljKP4.mp4
+開始生成回答...
+⏱️ 耗時: 2.08 秒
+⚡ 速度: 5.29 tokens/sec (11 tokens)
+🤖 模型回答:
+Men appear to be engaging in a physical altercation.
+------------------------------
+==================================================
+[17/43] 處理影片: falling_off_chair/falling_off_chair_5xlTi_-c7NY.mp4
+開始生成回答...
+⏱️ 耗時: 2.04 秒
+⚡ 速度: 4.90 tokens/sec (10 tokens)
+🤖 模型回答:
+Girl restrained in chair, seemingly in distress.
+------------------------------
+==================================================
+[18/43] 處理影片: falling_off_chair/falling_off_chair_3Jd_MXqwIKc.mp4
+開始生成回答...
+⏱️ 耗時: 2.07 秒
+⚡ 速度: 5.32 tokens/sec (11 tokens)
+🤖 模型回答:
+Man walks through office, observing coworkers at desks.
+------------------------------
+==================================================
+[19/43] 處理影片: falling_off_chair/falling_off_chair_gCqTxLReCus.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.88 tokens/sec (10 tokens)
+🤖 模型回答:
+Person raising one arm in a playful pose.
+------------------------------
+==================================================
+[20/43] 處理影片: falling_off_chair/falling_off_chair_f2nOuIPchP8.mp4
+開始生成回答...
+⏱️ 耗時: 2.07 秒
+⚡ 速度: 5.31 tokens/sec (11 tokens)
+🤖 模型回答:
+Teenager smiles while sitting at a dining table.
+------------------------------
+==================================================
+[21/43] 處理影片: falling_off_chair/falling_off_chair_zNx9s_XbkUQ.mp4
+開始生成回答...
+⏱️ 耗時: 2.03 秒
+⚡ 速度: 4.44 tokens/sec (9 tokens)
+🤖 模型回答:
+Man awkwardly falls into a folding chair.
+------------------------------
+==================================================
+[22/43] 處理影片: falling_off_chair/falling_off_chair_fxKsubHkXMc.mp4
+開始生成回答...
+⏱️ 耗時: 2.04 秒
+⚡ 速度: 4.90 tokens/sec (10 tokens)
+🤖 模型回答:
+Man balancing on stacked chairs in a hall.
+------------------------------
+==================================================
+[23/43] 處理影片: falling_off_chair/falling_off_chair_QQmQnfEXdOE.mp4
+開始生成回答...
+⏱️ 耗時: 2.08 秒
+⚡ 速度: 5.76 tokens/sec (12 tokens)
+🤖 模型回答:
+Person collapses into a chair while working on a laptop.
+------------------------------
+==================================================
+[24/43] 處理影片: falling_off_chair/falling_off_chair_y7GOcGQqVYM.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.89 tokens/sec (10 tokens)
+🤖 模型回答:
+Girl sitting at a table, seemingly talking.
+------------------------------
+==================================================
+[25/43] 處理影片: falling_off_chair/falling_off_chair_fDNX6WW_6jc.mp4
+開始生成回答...
+⏱️ 耗時: 2.02 秒
+⚡ 速度: 4.44 tokens/sec (9 tokens)
+🤖 模型回答:
+Person repeatedly falls into a large couch.
+------------------------------
+==================================================
+[26/43] 處理影片: falling_off_chair/falling_off_chair_f6ZwvW_FD7U.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.89 tokens/sec (10 tokens)
+🤖 模型回答:
+A person is violently struggling on a chair.
+------------------------------
+==================================================
+[27/43] 處理影片: falling_off_chair/falling_off_chair_twnAqdZkDZ8.mp4
+開始生成回答...
+⏱️ 耗時: 2.09 秒
+⚡ 速度: 5.74 tokens/sec (12 tokens)
+🤖 模型回答:
+Two boys playfully wrestle and playfully bump into each other.
+------------------------------
+==================================================
+[28/43] 處理影片: falling_off_chair/falling_off_chair_vSyIph8s85U.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.89 tokens/sec (10 tokens)
+🤖 模型回答:
+Person falls awkwardly against a wall and curtain.
+------------------------------
+==================================================
+[29/43] 處理影片: falling_off_chair/falling_off_chair_xFFQRtKizJk.mp4
+開始生成回答...
+⏱️ 耗時: 2.04 秒
+⚡ 速度: 4.89 tokens/sec (10 tokens)
+🤖 模型回答:
+A person falls and rolls on the floor.
+------------------------------
+==================================================
+[30/43] 處理影片: falling_off_chair/falling_off_chair_wNk1F7W5LIQ.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.87 tokens/sec (10 tokens)
+🤖 模型回答:
+Man falls dramatically while looking at a screen.
+------------------------------
+==================================================
+[31/43] 處理影片: falling_off_chair/falling_off_chair_kKhCkAkz1vk.mp4
+開始生成回答...
+⏱️ 耗時: 2.03 秒
+⚡ 速度: 4.43 tokens/sec (9 tokens)
+🤖 模型回答:
+Girl performs exercises on a small chair.
+------------------------------
+==================================================
+[32/43] 處理影片: falling_off_chair/falling_off_chair_q6b9VXig4e0.mp4
+開始生成回答...
+⏱️ 耗時: 2.07 秒
+⚡ 速度: 5.31 tokens/sec (11 tokens)
+🤖 模型回答:
+BTS playfully interact with a large, fluffy dog.
+------------------------------
+==================================================
+[33/43] 處理影片: falling_off_chair/falling_off_chair_GotjwB_SgI0.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.88 tokens/sec (10 tokens)
+🤖 模型回答:
+A person is sitting in a dark room.
+------------------------------
+==================================================
+[34/43] 處理影片: falling_off_chair/falling_off_chair_W2237TK0wcI.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.88 tokens/sec (10 tokens)
+🤖 模型回答:
+Child struggling to roll around in a chair.
+------------------------------
+==================================================
+[35/43] 處理影片: falling_off_chair/falling_off_chair_XXN3CgCyEx4.mp4
+開始生成回答...
+⏱️ 耗時: 2.03 秒
+⚡ 速度: 4.44 tokens/sec (9 tokens)
+🤖 模型回答:
+Girl playfully attempts to climb a chair.
+------------------------------
+==================================================
+[36/43] 處理影片: falling_off_chair/falling_off_chair_cGbA0ZsJ-tU.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.88 tokens/sec (10 tokens)
+🤖 模型回答:
+Man carries woman on a rolling office chair.
+------------------------------
+==================================================
+[37/43] 處理影片: falling_off_chair/falling_off_chair_qkCEuMm9vnY.mp4
+開始生成回答...
+⏱️ 耗時: 2.06 秒
+⚡ 速度: 4.86 tokens/sec (10 tokens)
+🤖 模型回答:
+A person breaks into a store at night.
+------------------------------
+==================================================
+[38/43] 處理影片: falling_off_chair/falling_off_chair_t3N44ZENWIQ.mp4
+開始生成回答...
+⏱️ 耗時: 2.04 秒
+⚡ 速度: 4.91 tokens/sec (10 tokens)
+🤖 模型回答:
+Person falls through ceiling, causing office chaos.
+------------------------------
+==================================================
+[39/43] 處理影片: falling_off_chair/falling_off_chair_06u5p4FNohA.mp4
+開始生成回答...
+⏱️ 耗時: 2.04 秒
+⚡ 速度: 4.42 tokens/sec (9 tokens)
+🤖 模型回答:
+Woman awkwardly maneuvers amidst a cluttered room.
+------------------------------
+==================================================
+[40/43] 處理影片: falling_off_chair/falling_off_chair_1RZYhr6hly4.mp4
+開始生成回答...
+⏱️ 耗時: 2.09 秒
+⚡ 速度: 5.75 tokens/sec (12 tokens)
+🤖 模型回答:
+Person lying on a bed in a dimly lit room.
+------------------------------
+==================================================
+[41/43] 處理影片: falling_off_chair/falling_off_chair_p8o6EkXONhc.mp4
+開始生成回答...
+⏱️ 耗時: 2.00 秒
+⚡ 速度: 4.00 tokens/sec (8 tokens)
+🤖 模型回答:
+Physical altercation involving multiple individuals indoors.
+------------------------------
+==================================================
+[42/43] 處理影片: falling_off_chair/falling_off_chair_tCZvKt-dKdY.mp4
+開始生成回答...
+⏱️ 耗時: 2.03 秒
+⚡ 速度: 4.43 tokens/sec (9 tokens)
+🤖 模型回答:
+Student is kneeling on a classroom desk.
+------------------------------
+==================================================
+[43/43] 處理影片: falling_off_chair/falling_off_chair_sl_oBU2ukJ8.mp4
+開始生成回答...
+⏱️ 耗時: 2.04 秒
+⚡ 速度: 4.90 tokens/sec (10 tokens)
+🤖 模型回答:
+People moving quickly in a dimly lit space.
+------------------------------
+
+==================== 測試總結 ====================
+成功處理影片數  : 43 / 43
+總耗費時間      : 88.38 秒
+總生成 Tokens 數: 429
+平均每支影片耗時: 2.06 秒
+整體生成速度    : 4.85 tokens/sec
+GPU 最高記憶體佔用: 11.43 GB
+詳細測試結果已隨時記錄於 gemma-3-4b-it/falling_off_chair.log

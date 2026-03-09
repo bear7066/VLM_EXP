@@ -1,0 +1,406 @@
+載入模型與處理器: google/gemma-3-4b-it ...
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/processor_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/google/gemma-3-4b-it/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/processor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/chat_template.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/google/gemma-3-4b-it/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/processor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/chat_template.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/processor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/preprocessor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/processor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/preprocessor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/google/gemma-3-4b-it/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/google/gemma-3-4b-it/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/google/gemma-3-4b-it "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/generation_config.json "HTTP/1.1 200 OK"
+從 face_planting 尋找，共找到 46 支影片。
+開始測試，隨機抽取 46 支影片進行推論...
+==================================================
+[1/46] 處理影片: face_planting/faceplanting_Kj725DEceik.mp4
+開始生成回答...
+⏱️ 耗時: 2.42 秒
+⚡ 速度: 4.13 tokens/sec (10 tokens)
+🤖 模型回答:
+A young man is standing in a doorway.
+------------------------------
+==================================================
+[2/46] 處理影片: face_planting/faceplanting_Oinr3wRnArM.mp4
+開始生成回答...
+⏱️ 耗時: 2.08 秒
+⚡ 速度: 5.78 tokens/sec (12 tokens)
+🤖 模型回答:
+Child joyfully splashes through a muddy, flooded ditch.
+------------------------------
+==================================================
+[3/46] 處理影片: face_planting/faceplanting_o5FiLY-wObk.mp4
+開始生成回答...
+⏱️ 耗時: 2.01 秒
+⚡ 速度: 4.47 tokens/sec (9 tokens)
+🤖 模型回答:
+Young man falls awkwardly in muddy terrain.
+------------------------------
+==================================================
+[4/46] 處理影片: face_planting/faceplanting_gfO5b9MkeYw.mp4
+開始生成回答...
+⏱️ 耗時: 2.15 秒
+⚡ 速度: 6.98 tokens/sec (15 tokens)
+🤖 模型回答:
+Cheerleaders perform a complex tumbling fall, resulting in a crash.
+------------------------------
+==================================================
+[5/46] 處理影片: face_planting/faceplanting_T4wf6w_HqUs.mp4
+開始生成回答...
+⏱️ 耗時: 2.02 秒
+⚡ 速度: 4.45 tokens/sec (9 tokens)
+🤖 模型回答:
+Person falls while snowboarding in the snow.
+------------------------------
+==================================================
+[6/46] 處理影片: face_planting/faceplanting_11YmgupLXYE.mp4
+開始生成回答...
+⏱️ 耗時: 2.06 秒
+⚡ 速度: 5.35 tokens/sec (11 tokens)
+🤖 模型回答:
+A person is being lifted by an emu.
+------------------------------
+==================================================
+[7/46] 處理影片: face_planting/faceplanting_wEW0geZNjF4.mp4
+開始生成回答...
+⏱️ 耗時: 2.45 秒
+⚡ 速度: 11.84 tokens/sec (29 tokens)
+🤖 模型回答:
+Here's a description of the main action in under 10 words:
+
+**Cyclist crashes into a ramp, falling over.**
+------------------------------
+==================================================
+[8/46] 處理影片: face_planting/faceplanting_QbyBACtRcz8.mp4
+開始生成回答...
+⏱️ 耗時: 2.02 秒
+⚡ 速度: 4.45 tokens/sec (9 tokens)
+🤖 模型回答:
+Two babies playfully wrestling on a bed.
+------------------------------
+==================================================
+[9/46] 處理影片: face_planting/faceplanting_ZLFkNSl-XPw.mp4
+開始生成回答...
+⏱️ 耗時: 2.06 秒
+⚡ 速度: 5.34 tokens/sec (11 tokens)
+🤖 模型回答:
+Student falls awkwardly on playground, surrounded by classmates.
+------------------------------
+==================================================
+[10/46] 處理影片: face_planting/faceplanting_TAG04GA-p_Q.mp4
+開始生成回答...
+⏱️ 耗時: 2.04 秒
+⚡ 速度: 4.90 tokens/sec (10 tokens)
+🤖 模型回答:
+Adult helps child climb down a blue slide.
+------------------------------
+==================================================
+[11/46] 處理影片: face_planting/faceplanting_RhL1gAwe9K4.mp4
+開始生成回答...
+⏱️ 耗時: 2.02 秒
+⚡ 速度: 4.45 tokens/sec (9 tokens)
+🤖 模型回答:
+Young man falls awkwardly from a trampoline.
+------------------------------
+==================================================
+[12/46] 處理影片: face_planting/faceplanting_koMIvXhfe9c.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.87 tokens/sec (10 tokens)
+🤖 模型回答:
+Young man spectacularly falls off a sand dune.
+------------------------------
+==================================================
+[13/46] 處理影片: face_planting/faceplanting_Te8kzu0-N7I.mp4
+開始生成回答...
+⏱️ 耗時: 2.07 秒
+⚡ 速度: 5.30 tokens/sec (11 tokens)
+🤖 模型回答:
+Child on a ride-on scooter crashes spectacularly.
+------------------------------
+==================================================
+[14/46] 處理影片: face_planting/faceplanting_ZObLHal3oPg.mp4
+開始生成回答...
+⏱️ 耗時: 2.01 秒
+⚡ 速度: 4.47 tokens/sec (9 tokens)
+🤖 模型回答:
+Person attempting a jump over blue barrels.
+------------------------------
+==================================================
+[15/46] 處理影片: face_planting/faceplanting_-dLXIIjWS-c.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.89 tokens/sec (10 tokens)
+🤖 模型回答:
+Child sledding through a deep snow drift.
+------------------------------
+==================================================
+[16/46] 處理影片: face_planting/faceplanting__3Sd76OyNxo.mp4
+開始生成回答...
+⏱️ 耗時: 2.08 秒
+⚡ 速度: 5.30 tokens/sec (11 tokens)
+🤖 模型回答:
+People sledding down a snowy, chaotic hill.
+------------------------------
+==================================================
+[17/46] 處理影片: face_planting/faceplanting_e7AnmQTKegM.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.88 tokens/sec (10 tokens)
+🤖 模型回答:
+Person standing on snow, casting a shadow.
+------------------------------
+==================================================
+[18/46] 處理影片: face_planting/faceplanting_kIhT0fUUPK0.mp4
+開始生成回答...
+⏱️ 耗時: 2.02 秒
+⚡ 速度: 4.46 tokens/sec (9 tokens)
+🤖 模型回答:
+Person watches someone fall into the water.
+------------------------------
+==================================================
+[19/46] 處理影片: face_planting/faceplanting_XmpAlvVJyfQ.mp4
+開始生成回答...
+⏱️ 耗時: 2.06 秒
+⚡ 速度: 5.33 tokens/sec (11 tokens)
+🤖 模型回答:
+Person sliding on a snow bench, losing control.
+------------------------------
+==================================================
+[20/46] 處理影片: face_planting/faceplanting_wF-7CEJZ4w8.mp4
+開始生成回答...
+⏱️ 耗時: 2.07 秒
+⚡ 速度: 5.32 tokens/sec (11 tokens)
+🤖 模型回答:
+Person performs acrobatic flips on a gymnastics mat.
+------------------------------
+==================================================
+[21/46] 處理影片: face_planting/faceplanting_JR9LTG9F4j0.mp4
+開始生成回答...
+⏱️ 耗時: 2.07 秒
+⚡ 速度: 5.31 tokens/sec (11 tokens)
+🤖 模型回答:
+Person snowboarding on a snowy, expansive mountain slope.
+------------------------------
+==================================================
+[22/46] 處理影片: face_planting/faceplanting_piCD8qYAMVI.mp4
+開始生成回答...
+⏱️ 耗時: 2.44 秒
+⚡ 速度: 11.46 tokens/sec (28 tokens)
+🤖 模型回答:
+Here’s a description of the main action in under 10 words:
+
+**Person falls and slides dramatically on the snow.**
+------------------------------
+==================================================
+[23/46] 處理影片: face_planting/faceplanting_SBWpjWPvFho.mp4
+開始生成回答...
+⏱️ 耗時: 2.02 秒
+⚡ 速度: 4.45 tokens/sec (9 tokens)
+🤖 模型回答:
+Students appear to be restraining a classmate.
+------------------------------
+==================================================
+[24/46] 處理影片: face_planting/faceplanting_Us1OJs0UxE0.mp4
+開始生成回答...
+⏱️ 耗時: 2.08 秒
+⚡ 速度: 5.30 tokens/sec (11 tokens)
+🤖 模型回答:
+Child playfully rolls down the staircase in a basket.
+------------------------------
+==================================================
+[25/46] 處理影片: face_planting/faceplanting_m84Zlf4UxK0.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.87 tokens/sec (10 tokens)
+🤖 模型回答:
+Kids navigate a muddy obstacle course with determination.
+------------------------------
+==================================================
+[26/46] 處理影片: face_planting/faceplanting_VO37FL6Qo7c.mp4
+開始生成回答...
+⏱️ 耗時: 2.09 秒
+⚡ 速度: 5.74 tokens/sec (12 tokens)
+🤖 模型回答:
+Children riding go-karts down a narrow street.
+------------------------------
+==================================================
+[27/46] 處理影片: face_planting/faceplanting_oxPAGFHhE5s.mp4
+開始生成回答...
+⏱️ 耗時: 2.02 秒
+⚡ 速度: 4.45 tokens/sec (9 tokens)
+🤖 模型回答:
+Mountain biker navigating a dirt jump course.
+------------------------------
+==================================================
+[28/46] 處理影片: face_planting/faceplanting_phVppFzTgkA.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.88 tokens/sec (10 tokens)
+🤖 模型回答:
+Man falls from stacked boxes, seriously injured.
+------------------------------
+==================================================
+[29/46] 處理影片: face_planting/faceplanting_Z-beIVl_wPs.mp4
+開始生成回答...
+⏱️ 耗時: 2.07 秒
+⚡ 速度: 5.32 tokens/sec (11 tokens)
+🤖 模型回答:
+A child repeatedly fails to jump over a ball.
+------------------------------
+==================================================
+[30/46] 處理影片: face_planting/faceplanting_2zHDlGlWTG8.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.89 tokens/sec (10 tokens)
+🤖 模型回答:
+Man falls while attempting to skateboard on pavement.
+------------------------------
+==================================================
+[31/46] 處理影片: face_planting/faceplanting_7IWBLXPrxoQ.mp4
+開始生成回答...
+⏱️ 耗時: 2.08 秒
+⚡ 速度: 5.30 tokens/sec (11 tokens)
+🤖 模型回答:
+People sledding down a snowy, winding hillside.
+------------------------------
+==================================================
+[32/46] 處理影片: face_planting/faceplanting_4FgYoZSabV0.mp4
+開始生成回答...
+⏱️ 耗時: 2.04 秒
+⚡ 速度: 4.90 tokens/sec (10 tokens)
+🤖 模型回答:
+Mountain biker performs a spectacular, uncontrolled crash.
+------------------------------
+==================================================
+[33/46] 處理影片: face_planting/faceplanting_DnxygkTssDc.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.89 tokens/sec (10 tokens)
+🤖 模型回答:
+Baby nestled amongst toys in a cozy space.
+------------------------------
+==================================================
+[34/46] 處理影片: face_planting/faceplanting_X7ztDnayQAo.mp4
+開始生成回答...
+⏱️ 耗時: 2.11 秒
+⚡ 速度: 6.16 tokens/sec (13 tokens)
+🤖 模型回答:
+Group of people playfully (and roughly) attack a child.
+------------------------------
+==================================================
+[35/46] 處理影片: face_planting/faceplanting_D9x20LIhb9Y.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.89 tokens/sec (10 tokens)
+🤖 模型回答:
+Mountain biker falls while navigating a rocky trail.
+------------------------------
+==================================================
+[36/46] 處理影片: face_planting/faceplanting_ng_6Awo2Luo.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.88 tokens/sec (10 tokens)
+🤖 模型回答:
+Young boy playfully rolls across the blue rope.
+------------------------------
+==================================================
+[37/46] 處理影片: face_planting/faceplanting_kr4B88Ldgso.mp4
+開始生成回答...
+⏱️ 耗時: 2.01 秒
+⚡ 速度: 3.98 tokens/sec (8 tokens)
+🤖 模型回答:
+Baby slides down the playground slide.
+------------------------------
+==================================================
+[38/46] 處理影片: face_planting/faceplanting_DAeLsJBXaAA.mp4
+開始生成回答...
+⏱️ 耗時: 2.06 秒
+⚡ 速度: 4.86 tokens/sec (10 tokens)
+🤖 模型回答:
+A child rides a bike over a ramp.
+------------------------------
+==================================================
+[39/46] 處理影片: face_planting/faceplanting_M7fnZthnKv0.mp4
+開始生成回答...
+⏱️ 耗時: 2.07 秒
+⚡ 速度: 5.33 tokens/sec (11 tokens)
+🤖 模型回答:
+Skater falls while attempting a trick on pavement.
+------------------------------
+==================================================
+[40/46] 處理影片: face_planting/faceplanting_wjmyNaK6TRc.mp4
+開始生成回答...
+⏱️ 耗時: 2.09 秒
+⚡ 速度: 5.75 tokens/sec (12 tokens)
+🤖 模型回答:
+Man waterskiing behind a boat on a lake.
+------------------------------
+==================================================
+[41/46] 處理影片: face_planting/faceplanting_mk9eyW1bzAU.mp4
+開始生成回答...
+⏱️ 耗時: 2.03 秒
+⚡ 速度: 4.42 tokens/sec (9 tokens)
+🤖 模型回答:
+Young men playfully wrestle in the surf.
+------------------------------
+==================================================
+[42/46] 處理影片: face_planting/faceplanting_neeVaqbf7wI.mp4
+開始生成回答...
+⏱️ 耗時: 2.07 秒
+⚡ 速度: 5.32 tokens/sec (11 tokens)
+🤖 模型回答:
+People are packaging and distributing small, white pills.
+------------------------------
+==================================================
+[43/46] 處理影片: face_planting/faceplanting_Q3LkU_qIANE.mp4
+開始生成回答...
+⏱️ 耗時: 2.05 秒
+⚡ 速度: 4.88 tokens/sec (10 tokens)
+🤖 模型回答:
+A person snowboarding falls repeatedly on icy ground.
+------------------------------
+==================================================
+[44/46] 處理影片: face_planting/faceplanting_nsjqgD_St9w.mp4
+開始生成回答...
+⏱️ 耗時: 2.04 秒
+⚡ 速度: 4.89 tokens/sec (10 tokens)
+🤖 模型回答:
+Child runs around in revealing, playful attire.
+------------------------------
+==================================================
+[45/46] 處理影片: face_planting/faceplanting_MaYeShN2k8I.mp4
+開始生成回答...
+⏱️ 耗時: 2.03 秒
+⚡ 速度: 4.44 tokens/sec (9 tokens)
+🤖 模型回答:
+Boys playfully lean against a school fence.
+------------------------------
+==================================================
+[46/46] 處理影片: face_planting/faceplanting__wJfPEwJn_s.mp4
+開始生成回答...
+⏱️ 耗時: 2.03 秒
+⚡ 速度: 4.43 tokens/sec (9 tokens)
+🤖 模型回答:
+Baby playfully dances near a brick fireplace.
+------------------------------
+
+==================== 測試總結 ====================
+成功處理影片數  : 46 / 46
+總耗費時間      : 95.59 秒
+總生成 Tokens 數: 510
+平均每支影片耗時: 2.08 秒
+整體生成速度    : 5.34 tokens/sec
+GPU 最高記憶體佔用: 11.43 GB
+詳細測試結果已隨時記錄於 gemma-3-4b-it/face_planting.log
