@@ -34,8 +34,8 @@ def get_all_scores_for_model(model_dir):
     return all_scores
 
 if __name__ == "__main__":
-    dir_4b = '/Users/harry/Desktop/VLM/VLM_EXP/gemma-3-4b-it'
-    dir_12b = '/Users/harry/Desktop/VLM/VLM_EXP/gemma-3-12b-it'
+    dir_4b = 'gemma-3-4b-it'
+    dir_12b = 'gemma-3-12b-it'
 
     scores_4b = get_all_scores_for_model(dir_4b)
     scores_12b = get_all_scores_for_model(dir_12b)
@@ -78,6 +78,6 @@ if __name__ == "__main__":
     plt.legend()
     plt.grid(axis='y', alpha=0.75)
 
-    output_file = '/Users/harry/Desktop/VLM/VLM_EXP/score_comparison.png'
+    output_file = 'score_comp_16F.png'
     plt.savefig(output_file, dpi=300)
     print(f"\n=> 比較長條圖已儲存至: {output_file}")

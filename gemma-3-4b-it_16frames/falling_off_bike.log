@@ -24,370 +24,372 @@ HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/gene
 從 falling_off_bike 尋找，共找到 45 支影片。
 開始測試，隨機抽取 45 支影片進行推論...
 ==================================================
-[1/45] 處理影片: falling_off_bike/falling_off_bike_u386WjrxTuM.mp4
+[1/45] 處理影片: falling_off_bike/falling_off_bike_vg4T4Ts3KdU.mp4
 開始生成回答...
-⏱️ 耗時: 1.04 秒
-⚡ 速度: 9.61 tokens/sec (10 tokens)
+⏱️ 耗時: 1.49 秒
+⚡ 速度: 8.05 tokens/sec (12 tokens)
 🤖 模型回答:
-Boy jumps into a pool on a bicycle.
+Man riding a bike through a dusty, chaotic terrain.
 ------------------------------
 ==================================================
-[2/45] 處理影片: falling_off_bike/falling_off_bike_-c0s5FYBWTQ.mp4
+[2/45] 處理影片: falling_off_bike/falling_off_bike_I10wpW-lYPM.mp4
 開始生成回答...
-⏱️ 耗時: 0.71 秒
-⚡ 速度: 15.55 tokens/sec (11 tokens)
+⏱️ 耗時: 1.07 秒
+⚡ 速度: 8.42 tokens/sec (9 tokens)
 🤖 模型回答:
-A child falls off a bicycle on a street.
+Boy falls off bike in a park.
 ------------------------------
 ==================================================
-[3/45] 處理影片: falling_off_bike/falling_off_bike_AVLCPu4UaPE.mp4
+[3/45] 處理影片: falling_off_bike/falling_off_bike_AxMf6X5_A3A.mp4
 開始生成回答...
-⏱️ 耗時: 0.69 秒
-⚡ 速度: 14.59 tokens/sec (10 tokens)
+⏱️ 耗時: 1.09 秒
+⚡ 速度: 9.14 tokens/sec (10 tokens)
 🤖 模型回答:
-Child falls off bike while attempting a stunt.
+Person riding a bicycle on a suburban street.
 ------------------------------
 ==================================================
-[4/45] 處理影片: falling_off_bike/falling_off_bike_4kU-hbhQ9is.mp4
+[4/45] 處理影片: falling_off_bike/falling_off_bike_G_w2dLWeQfY.mp4
 開始生成回答...
-⏱️ 耗時: 0.66 秒
-⚡ 速度: 13.68 tokens/sec (9 tokens)
+⏱️ 耗時: 1.07 秒
+⚡ 速度: 8.38 tokens/sec (9 tokens)
 🤖 模型回答:
-Person riding a bike down a street.
+Person falls off bicycle on grassy ground.
 ------------------------------
 ==================================================
-[5/45] 處理影片: falling_off_bike/falling_off_bike_QXlLnjld17U.mp4
+[5/45] 處理影片: falling_off_bike/falling_off_bike_SocGMDzqthw.mp4
 開始生成回答...
-⏱️ 耗時: 0.69 秒
-⚡ 速度: 14.53 tokens/sec (10 tokens)
+⏱️ 耗時: 1.13 秒
+⚡ 速度: 10.67 tokens/sec (12 tokens)
 🤖 模型回答:
-Boy falls off bike while learning to ride.
+Cyclist falls off bike in a chaotic street scene.
 ------------------------------
 ==================================================
-[6/45] 處理影片: falling_off_bike/falling_off_bike_WWjDVZAIxrA.mp4
+[6/45] 處理影片: falling_off_bike/falling_off_bike_GcWGUxG-qYo.mp4
 開始生成回答...
-⏱️ 耗時: 0.70 秒
-⚡ 速度: 15.61 tokens/sec (11 tokens)
+⏱️ 耗時: 1.10 秒
+⚡ 速度: 9.11 tokens/sec (10 tokens)
 🤖 模型回答:
-Bicycle riders attempting stunts in a wooded area.
+Rider crashes spectacularly on a dirt trail.
 ------------------------------
 ==================================================
-[7/45] 處理影片: falling_off_bike/falling_off_bike_RluniDxJ-io.mp4
+[7/45] 處理影片: falling_off_bike/falling_off_bike_6bIMrpU6ils.mp4
 開始生成回答...
-⏱️ 耗時: 0.68 秒
-⚡ 速度: 14.63 tokens/sec (10 tokens)
+⏱️ 耗時: 1.08 秒
+⚡ 速度: 9.28 tokens/sec (10 tokens)
 🤖 模型回答:
-Person falls down a muddy, sandy slope.
+Child riding a tricycle down a dusty road.
 ------------------------------
 ==================================================
-[8/45] 處理影片: falling_off_bike/falling_off_bike_9EqDdRaHEZE.mp4
+[8/45] 處理影片: falling_off_bike/falling_off_bike_rhCVjp71CRU.mp4
 開始生成回答...
-⏱️ 耗時: 0.71 秒
-⚡ 速度: 15.52 tokens/sec (11 tokens)
+⏱️ 耗時: 1.09 秒
+⚡ 速度: 9.17 tokens/sec (10 tokens)
 🤖 模型回答:
-Teenager crashes bike on flooded, submerged street.
+Motorcyclist crashes down a dirt trail.
 ------------------------------
 ==================================================
-[9/45] 處理影片: falling_off_bike/falling_off_bike_vg4T4Ts3KdU.mp4
+[9/45] 處理影片: falling_off_bike/falling_off_bike_W8fpOGSD_7M.mp4
 開始生成回答...
-⏱️ 耗時: 0.73 秒
-⚡ 速度: 16.37 tokens/sec (12 tokens)
+⏱️ 耗時: 1.09 秒
+⚡ 速度: 9.14 tokens/sec (10 tokens)
 🤖 模型回答:
-Man riding a bike through a dusty, muddy terrain.
+Person falls off bicycle, shouting "Nope!"
 ------------------------------
 ==================================================
-[10/45] 處理影片: falling_off_bike/falling_off_bike_wWEnYiHzorg.mp4
+[10/45] 處理影片: falling_off_bike/falling_off_bike_vz8oSbQi_mM.mp4
 開始生成回答...
-⏱️ 耗時: 0.68 秒
-⚡ 速度: 14.65 tokens/sec (10 tokens)
-🤖 模型回答:
-Child falls off bike in a muddy alley.
-------------------------------
-==================================================
-[11/45] 處理影片: falling_off_bike/falling_off_bike_GcWGUxG-qYo.mp4
-開始生成回答...
-⏱️ 耗時: 0.73 秒
-⚡ 速度: 16.46 tokens/sec (12 tokens)
-🤖 模型回答:
-ATV crash on a dirt trail, rider injured.
-------------------------------
-==================================================
-[12/45] 處理影片: falling_off_bike/falling_off_bike_Tl1a49pTtak.mp4
-開始生成回答...
-⏱️ 耗時: 0.74 秒
-⚡ 速度: 16.24 tokens/sec (12 tokens)
-🤖 模型回答:
-Cyclist falls, injured, near a cracked pavement.
-------------------------------
-==================================================
-[13/45] 處理影片: falling_off_bike/falling_off_bike_SocGMDzqthw.mp4
-開始生成回答...
-⏱️ 耗時: 0.71 秒
-⚡ 速度: 15.58 tokens/sec (11 tokens)
-🤖 模型回答:
-Cyclist is struck by a vehicle in traffic.
-------------------------------
-==================================================
-[14/45] 處理影片: falling_off_bike/falling_off_bike_p8Jt6ROutMo.mp4
-開始生成回答...
-⏱️ 耗時: 0.68 秒
-⚡ 速度: 14.65 tokens/sec (10 tokens)
-🤖 模型回答:
-Person jumps over a large mound in woods.
-------------------------------
-==================================================
-[15/45] 處理影片: falling_off_bike/falling_off_bike_WGHj7LBp2t8.mp4
-開始生成回答...
-⏱️ 耗時: 0.70 秒
-⚡ 速度: 15.65 tokens/sec (11 tokens)
-🤖 模型回答:
-Person falls off a wooden bridge in a park.
-------------------------------
-==================================================
-[16/45] 處理影片: falling_off_bike/falling_off_bike_4VpUtUGcJzE.mp4
-開始生成回答...
-⏱️ 耗時: 0.66 秒
-⚡ 速度: 13.67 tokens/sec (9 tokens)
-🤖 模型回答:
-Teenagers performing tricks on BMX bikes.
-------------------------------
-==================================================
-[17/45] 處理影片: falling_off_bike/falling_off_bike_QcutxgXwENE.mp4
-開始生成回答...
-⏱️ 耗時: 0.74 秒
-⚡ 速度: 16.32 tokens/sec (12 tokens)
-🤖 模型回答:
-Mountain biker crashes, flips over bike in grassy terrain.
-------------------------------
-==================================================
-[18/45] 處理影片: falling_off_bike/falling_off_bike_vz8oSbQi_mM.mp4
-開始生成回答...
-⏱️ 耗時: 0.73 秒
-⚡ 速度: 16.39 tokens/sec (12 tokens)
+⏱️ 耗時: 1.14 秒
+⚡ 速度: 10.53 tokens/sec (12 tokens)
 🤖 模型回答:
 Skater riding and performing tricks at a skate park.
 ------------------------------
 ==================================================
-[19/45] 處理影片: falling_off_bike/falling_off_bike_AxMf6X5_A3A.mp4
+[11/45] 處理影片: falling_off_bike/falling_off_bike_qKScacoGAwE.mp4
 開始生成回答...
-⏱️ 耗時: 0.69 秒
-⚡ 速度: 14.53 tokens/sec (10 tokens)
+⏱️ 耗時: 1.12 秒
+⚡ 速度: 9.83 tokens/sec (11 tokens)
 🤖 模型回答:
-Person riding a bicycle on a paved path.
+A bicycle crash in a rural, dusty street.
 ------------------------------
 ==================================================
-[20/45] 處理影片: falling_off_bike/falling_off_bike_I10wpW-lYPM.mp4
+[12/45] 處理影片: falling_off_bike/falling_off_bike_ggi3XwH4vPo.mp4
 開始生成回答...
-⏱️ 耗時: 0.68 秒
-⚡ 速度: 14.68 tokens/sec (10 tokens)
+⏱️ 耗時: 1.14 秒
+⚡ 速度: 10.52 tokens/sec (12 tokens)
 🤖 模型回答:
-Child falls off bike in a grassy park.
+Man riding a bike through a muddy, flooded area.
 ------------------------------
 ==================================================
-[21/45] 處理影片: falling_off_bike/falling_off_bike_GduBJtZHDGM.mp4
+[13/45] 處理影片: falling_off_bike/falling_off_bike_AVLCPu4UaPE.mp4
 開始生成回答...
-⏱️ 耗時: 0.68 秒
-⚡ 速度: 14.63 tokens/sec (10 tokens)
+⏱️ 耗時: 1.10 秒
+⚡ 速度: 9.13 tokens/sec (10 tokens)
 🤖 模型回答:
-People on bicycles colliding in a flooded area.
+Child falls off bike while attempting a trick.
 ------------------------------
 ==================================================
-[22/45] 處理影片: falling_off_bike/falling_off_bike_6bIMrpU6ils.mp4
+[14/45] 處理影片: falling_off_bike/falling_off_bike_QXlLnjld17U.mp4
 開始生成回答...
-⏱️ 耗時: 0.76 秒
-⚡ 速度: 17.21 tokens/sec (13 tokens)
+⏱️ 耗時: 1.09 秒
+⚡ 速度: 9.15 tokens/sec (10 tokens)
 🤖 模型回答:
-Child riding a three-wheeled vehicle down a rough road.
+Child falls off bike during a learning session.
 ------------------------------
 ==================================================
-[23/45] 處理影片: falling_off_bike/falling_off_bike_W8fpOGSD_7M.mp4
+[15/45] 處理影片: falling_off_bike/falling_off_bike_-c0s5FYBWTQ.mp4
 開始生成回答...
-⏱️ 耗時: 0.68 秒
-⚡ 速度: 14.62 tokens/sec (10 tokens)
+⏱️ 耗時: 1.10 秒
+⚡ 速度: 9.12 tokens/sec (10 tokens)
 🤖 模型回答:
-Person falls off bicycle in a messy tumble.
+Child riding a bicycle down a residential street.
 ------------------------------
 ==================================================
-[24/45] 處理影片: falling_off_bike/falling_off_bike_GNjsTEp_J8E.mp4
+[16/45] 處理影片: falling_off_bike/falling_off_bike_9EqDdRaHEZE.mp4
 開始生成回答...
-⏱️ 耗時: 0.68 秒
-⚡ 速度: 14.71 tokens/sec (10 tokens)
+⏱️ 耗時: 1.10 秒
+⚡ 速度: 8.21 tokens/sec (9 tokens)
 🤖 模型回答:
-Person riding a bike on various wooden structures.
+Person falls off bike on flooded asphalt.
 ------------------------------
 ==================================================
-[25/45] 處理影片: falling_off_bike/falling_off_bike_0uf2P7BX1vs.mp4
+[17/45] 處理影片: falling_off_bike/falling_off_bike_QcutxgXwENE.mp4
 開始生成回答...
-⏱️ 耗時: 0.68 秒
-⚡ 速度: 14.65 tokens/sec (10 tokens)
+⏱️ 耗時: 1.10 秒
+⚡ 速度: 9.10 tokens/sec (10 tokens)
 🤖 模型回答:
-Man attempts a bike jump on a trampoline.
+Person falls off bicycle on a grassy trail.
 ------------------------------
 ==================================================
-[26/45] 處理影片: falling_off_bike/falling_off_bike_ggi3XwH4vPo.mp4
+[18/45] 處理影片: falling_off_bike/falling_off_bike_WWjDVZAIxrA.mp4
 開始生成回答...
-⏱️ 耗時: 0.69 秒
-⚡ 速度: 14.53 tokens/sec (10 tokens)
+⏱️ 耗時: 1.14 秒
+⚡ 速度: 10.51 tokens/sec (12 tokens)
 🤖 模型回答:
-Man struggling to ride a bike through mud.
+People riding BMX bikes in a challenging, wooded area.
 ------------------------------
 ==================================================
-[27/45] 處理影片: falling_off_bike/falling_off_bike_k73Go_-hE-I.mp4
+[19/45] 處理影片: falling_off_bike/falling_off_bike_p8Jt6ROutMo.mp4
 開始生成回答...
-⏱️ 耗時: 0.66 秒
-⚡ 速度: 13.55 tokens/sec (9 tokens)
+⏱️ 耗時: 1.10 秒
+⚡ 速度: 9.11 tokens/sec (10 tokens)
 🤖 模型回答:
-Person falls after attempting a ramp jump.
+Person jumps over a muddy mound in woods.
 ------------------------------
 ==================================================
-[28/45] 處理影片: falling_off_bike/falling_off_bike_rhCVjp71CRU.mp4
+[20/45] 處理影片: falling_off_bike/falling_off_bike_GduBJtZHDGM.mp4
 開始生成回答...
-⏱️ 耗時: 0.69 秒
-⚡ 速度: 14.54 tokens/sec (10 tokens)
+⏱️ 耗時: 1.10 秒
+⚡ 速度: 9.96 tokens/sec (11 tokens)
 🤖 模型回答:
-Person falls off a dirt trail into water.
+A young man falls off a bicycle at night.
 ------------------------------
 ==================================================
-[29/45] 處理影片: falling_off_bike/falling_off_bike_7qZvo1A3MRQ.mp4
+[21/45] 處理影片: falling_off_bike/falling_off_bike_4kU-hbhQ9is.mp4
 開始生成回答...
-⏱️ 耗時: 0.68 秒
-⚡ 速度: 14.69 tokens/sec (10 tokens)
+⏱️ 耗時: 1.06 秒
+⚡ 速度: 8.49 tokens/sec (9 tokens)
 🤖 模型回答:
-Person riding a bike through a muddy yard.
+Person riding a bicycle down a street.
 ------------------------------
 ==================================================
-[30/45] 處理影片: falling_off_bike/falling_off_bike_puUZXLmpJKI.mp4
+[22/45] 處理影片: falling_off_bike/falling_off_bike_4y0ujkNbul8.mp4
 開始生成回答...
-⏱️ 耗時: 0.74 秒
-⚡ 速度: 16.25 tokens/sec (12 tokens)
+⏱️ 耗時: 1.07 秒
+⚡ 速度: 9.30 tokens/sec (10 tokens)
 🤖 模型回答:
-Person sliding down a grassy slope, wearing a helmet.
+Child falls off bike while learning to ride.
 ------------------------------
 ==================================================
-[31/45] 處理影片: falling_off_bike/falling_off_bike_USCaphYBPOg.mp4
+[23/45] 處理影片: falling_off_bike/falling_off_bike_USCaphYBPOg.mp4
 開始生成回答...
-⏱️ 耗時: 0.68 秒
-⚡ 速度: 14.62 tokens/sec (10 tokens)
+⏱️ 耗時: 1.09 秒
+⚡ 速度: 9.14 tokens/sec (10 tokens)
 🤖 模型回答:
 Person falls off bicycle on a paved road.
 ------------------------------
 ==================================================
-[32/45] 處理影片: falling_off_bike/falling_off_bike_W6M1Y_RYQIY.mp4
+[24/45] 處理影片: falling_off_bike/falling_off_bike_Hrt2-YSJaBM.mp4
 開始生成回答...
-⏱️ 耗時: 0.67 秒
-⚡ 速度: 13.53 tokens/sec (9 tokens)
+⏱️ 耗時: 1.12 秒
+⚡ 速度: 9.85 tokens/sec (11 tokens)
 🤖 模型回答:
-Child falls off bike on a street.
+Person falls off a wheelchair while riding a bike.
 ------------------------------
 ==================================================
-[33/45] 處理影片: falling_off_bike/falling_off_bike__9wbSErLcT4.mp4
+[25/45] 處理影片: falling_off_bike/falling_off_bike__9wbSErLcT4.mp4
 開始生成回答...
-⏱️ 耗時: 0.68 秒
-⚡ 速度: 14.68 tokens/sec (10 tokens)
+⏱️ 耗時: 1.15 秒
+⚡ 速度: 9.61 tokens/sec (11 tokens)
 🤖 模型回答:
-Child riding a bike down a narrow path.
+A child is riding a bicycle down a path.
 ------------------------------
 ==================================================
-[34/45] 處理影片: falling_off_bike/falling_off_bike_Zt4pZsUXLwU.mp4
+[26/45] 處理影片: falling_off_bike/falling_off_bike_F5rWXJiw4Z4.mp4
 開始生成回答...
-⏱️ 耗時: 0.70 秒
-⚡ 速度: 15.62 tokens/sec (11 tokens)
+⏱️ 耗時: 1.10 秒
+⚡ 速度: 9.09 tokens/sec (10 tokens)
 🤖 模型回答:
-Person riding a bike down a set of stairs.
+Mountain biker descends a muddy, wooded trail.
 ------------------------------
 ==================================================
-[35/45] 處理影片: falling_off_bike/falling_off_bike_G_w2dLWeQfY.mp4
+[27/45] 處理影片: falling_off_bike/falling_off_bike_KZZ2ySZ2oC8.mp4
 開始生成回答...
-⏱️ 耗時: 0.67 秒
-⚡ 速度: 13.50 tokens/sec (9 tokens)
+⏱️ 耗時: 1.11 秒
+⚡ 速度: 9.93 tokens/sec (11 tokens)
 🤖 模型回答:
-Person falls off bicycle on grassy area.
+Man falls off a small bicycle on the road.
 ------------------------------
 ==================================================
-[36/45] 處理影片: falling_off_bike/falling_off_bike_F5rWXJiw4Z4.mp4
+[28/45] 處理影片: falling_off_bike/falling_off_bike_ENfmLM2-ZDQ.mp4
 開始生成回答...
-⏱️ 耗時: 0.68 秒
-⚡ 速度: 14.69 tokens/sec (10 tokens)
+⏱️ 耗時: 1.51 秒
+⚡ 速度: 19.20 tokens/sec (29 tokens)
 🤖 模型回答:
-Mountain biker descends a muddy, forested trail.
+Here's a description of the main action in under 10 words:
+
+**Cyclist struggles through flooded channel on mountain bike.**
 ------------------------------
 ==================================================
-[37/45] 處理影片: falling_off_bike/falling_off_bike_4y0ujkNbul8.mp4
+[29/45] 處理影片: falling_off_bike/falling_off_bike_YawF29t8FRY.mp4
 開始生成回答...
-⏱️ 耗時: 0.71 秒
-⚡ 速度: 15.59 tokens/sec (11 tokens)
+⏱️ 耗時: 1.10 秒
+⚡ 速度: 9.10 tokens/sec (10 tokens)
 🤖 模型回答:
-Child falls off a ramp while riding a bike.
+People riding bicycles through a muddy forest path.
 ------------------------------
 ==================================================
-[38/45] 處理影片: falling_off_bike/falling_off_bike_7PcdoivSB3w.mp4
+[30/45] 處理影片: falling_off_bike/falling_off_bike_Zt4pZsUXLwU.mp4
 開始生成回答...
-⏱️ 耗時: 0.74 秒
-⚡ 速度: 16.19 tokens/sec (12 tokens)
+⏱️ 耗時: 1.07 秒
+⚡ 速度: 9.31 tokens/sec (10 tokens)
 🤖 模型回答:
-Teenager falls off a bike in a parking lot.
+A child rides a bike up a staircase.
 ------------------------------
 ==================================================
-[39/45] 處理影片: falling_off_bike/falling_off_bike_YawF29t8FRY.mp4
+[31/45] 處理影片: falling_off_bike/falling_off_bike_Tl1a49pTtak.mp4
 開始生成回答...
-⏱️ 耗時: 0.68 秒
-⚡ 速度: 14.63 tokens/sec (10 tokens)
+⏱️ 耗時: 1.09 秒
+⚡ 速度: 10.05 tokens/sec (11 tokens)
 🤖 模型回答:
-Person falls off bicycle in a forest setting.
+Cyclist falls, landing hard on the pavement.
 ------------------------------
 ==================================================
-[40/45] 處理影片: falling_off_bike/falling_off_bike_KZZ2ySZ2oC8.mp4
+[32/45] 處理影片: falling_off_bike/falling_off_bike_X5QyTM7XAjo.mp4
 開始生成回答...
-⏱️ 耗時: 0.68 秒
-⚡ 速度: 14.67 tokens/sec (10 tokens)
-🤖 模型回答:
-Man falls off bike on a busy street.
-------------------------------
-==================================================
-[41/45] 處理影片: falling_off_bike/falling_off_bike_qKScacoGAwE.mp4
-開始生成回答...
-⏱️ 耗時: 0.71 秒
-⚡ 速度: 15.60 tokens/sec (11 tokens)
-🤖 模型回答:
-A man and child are falling off a bike.
-------------------------------
-==================================================
-[42/45] 處理影片: falling_off_bike/falling_off_bike_Hrt2-YSJaBM.mp4
-開始生成回答...
-⏱️ 耗時: 0.69 秒
-⚡ 速度: 14.47 tokens/sec (10 tokens)
-🤖 模型回答:
-Person falls off bicycle in flooded outdoor area.
-------------------------------
-==================================================
-[43/45] 處理影片: falling_off_bike/falling_off_bike_ENfmLM2-ZDQ.mp4
-開始生成回答...
-⏱️ 耗時: 0.71 秒
-⚡ 速度: 15.55 tokens/sec (11 tokens)
-🤖 模型回答:
-Cyclist struggles to cross flooded, rocky waterway.
-------------------------------
-==================================================
-[44/45] 處理影片: falling_off_bike/falling_off_bike_0US_tIy2xAg.mp4
-開始生成回答...
-⏱️ 耗時: 0.66 秒
-⚡ 速度: 13.59 tokens/sec (9 tokens)
-🤖 模型回答:
-Boy riding a bike over a ramp.
-------------------------------
-==================================================
-[45/45] 處理影片: falling_off_bike/falling_off_bike_X5QyTM7XAjo.mp4
-開始生成回答...
-⏱️ 耗時: 0.68 秒
-⚡ 速度: 14.63 tokens/sec (10 tokens)
+⏱️ 耗時: 1.07 秒
+⚡ 速度: 9.31 tokens/sec (10 tokens)
 🤖 模型回答:
 Woman falls off bicycle in a comical way.
+------------------------------
+==================================================
+[33/45] 處理影片: falling_off_bike/falling_off_bike_wWEnYiHzorg.mp4
+開始生成回答...
+⏱️ 耗時: 1.09 秒
+⚡ 速度: 9.16 tokens/sec (10 tokens)
+🤖 模型回答:
+Child falls off bike in a muddy alley.
+------------------------------
+==================================================
+[34/45] 處理影片: falling_off_bike/falling_off_bike_7qZvo1A3MRQ.mp4
+開始生成回答...
+⏱️ 耗時: 1.11 秒
+⚡ 速度: 9.89 tokens/sec (11 tokens)
+🤖 模型回答:
+Man riding a bicycle, moving a shipping container.
+------------------------------
+==================================================
+[35/45] 處理影片: falling_off_bike/falling_off_bike_7PcdoivSB3w.mp4
+開始生成回答...
+⏱️ 耗時: 1.10 秒
+⚡ 速度: 10.04 tokens/sec (11 tokens)
+🤖 模型回答:
+Teen performs bike tricks on a cracked parking lot.
+------------------------------
+==================================================
+[36/45] 處理影片: falling_off_bike/falling_off_bike_WGHj7LBp2t8.mp4
+開始生成回答...
+⏱️ 耗時: 1.07 秒
+⚡ 速度: 8.40 tokens/sec (9 tokens)
+🤖 模型回答:
+Person falls violently through a wooden bridge.
+------------------------------
+==================================================
+[37/45] 處理影片: falling_off_bike/falling_off_bike_W6M1Y_RYQIY.mp4
+開始生成回答...
+⏱️ 耗時: 1.14 秒
+⚡ 速度: 10.51 tokens/sec (12 tokens)
+🤖 模型回答:
+Child attempts ramp, crashes, and bike breaks down.
+------------------------------
+==================================================
+[38/45] 處理影片: falling_off_bike/falling_off_bike_0uf2P7BX1vs.mp4
+開始生成回答...
+⏱️ 耗時: 1.10 秒
+⚡ 速度: 9.10 tokens/sec (10 tokens)
+🤖 模型回答:
+Man attempts a bike trick on a trampoline.
+------------------------------
+==================================================
+[39/45] 處理影片: falling_off_bike/falling_off_bike_RluniDxJ-io.mp4
+開始生成回答...
+⏱️ 耗時: 1.10 秒
+⚡ 速度: 9.09 tokens/sec (10 tokens)
+🤖 模型回答:
+Person sliding down a muddy, earthen slope.
+------------------------------
+==================================================
+[40/45] 處理影片: falling_off_bike/falling_off_bike_u386WjrxTuM.mp4
+開始生成回答...
+⏱️ 耗時: 1.12 秒
+⚡ 速度: 9.82 tokens/sec (11 tokens)
+🤖 模型回答:
+Boy falls into a pond while riding a bike.
+------------------------------
+==================================================
+[41/45] 處理影片: falling_off_bike/falling_off_bike_GNjsTEp_J8E.mp4
+開始生成回答...
+⏱️ 耗時: 1.12 秒
+⚡ 速度: 9.81 tokens/sec (11 tokens)
+🤖 模型回答:
+Person riding a bicycle on a series of tables.
+------------------------------
+==================================================
+[42/45] 處理影片: falling_off_bike/falling_off_bike_k73Go_-hE-I.mp4
+開始生成回答...
+⏱️ 耗時: 1.10 秒
+⚡ 速度: 9.10 tokens/sec (10 tokens)
+🤖 模型回答:
+Person falls off a bike after a jump.
+------------------------------
+==================================================
+[43/45] 處理影片: falling_off_bike/falling_off_bike_puUZXLmpJKI.mp4
+開始生成回答...
+⏱️ 耗時: 1.06 秒
+⚡ 速度: 8.52 tokens/sec (9 tokens)
+🤖 模型回答:
+Person falls awkwardly on grassy ground repeatedly.
+------------------------------
+==================================================
+[44/45] 處理影片: falling_off_bike/falling_off_bike_4VpUtUGcJzE.mp4
+開始生成回答...
+⏱️ 耗時: 1.09 秒
+⚡ 速度: 9.14 tokens/sec (10 tokens)
+🤖 模型回答:
+Teenagers riding bikes in a park setting.
+------------------------------
+==================================================
+[45/45] 處理影片: falling_off_bike/falling_off_bike_0US_tIy2xAg.mp4
+開始生成回答...
+⏱️ 耗時: 1.16 秒
+⚡ 速度: 10.36 tokens/sec (12 tokens)
+🤖 模型回答:
+Person riding a bike over a ramp in a yard.
 ------------------------------
 
 ==================== 測試總結 ====================
 成功處理影片數  : 45 / 45
-總耗費時間      : 31.63 秒
-總生成 Tokens 數: 470
-平均每支影片耗時: 0.70 秒
-整體生成速度    : 14.86 tokens/sec
+總耗費時間      : 50.35 秒
+總生成 Tokens 數: 487
+平均每支影片耗時: 1.12 秒
+整體生成速度    : 9.67 tokens/sec
 詳細測試結果已隨時記錄於 gemma-3-4b-it/falling_off_bike.log
