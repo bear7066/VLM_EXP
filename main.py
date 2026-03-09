@@ -55,18 +55,34 @@ def main():
     parser.add_argument("--video_dir", type=str, default="three_classes", help="Directory containing mp4/mkv files")
     args = parser.parse_args()
 
+    # 取得 ground_truth_name (將路徑最後的資料夾名稱視為 ground_truth)
+    # 例如：傳入 "three_classes/falling_off_chair"，則 ground_truth_name 為 "falling_off_chair"
+    # 若 args.video_dir 若有結尾斜線，需用 os.path.normpath 處理
+    clean_video_dir = os.path.normpath(args.video_dir)
+    ground_truth_name = os.path.basename(clean_video_dir)
+    if not ground_truth_name or ground_truth_name == ".":
+        ground_truth_name = "default_ground_truth"
+
+    # instruction tuning: google/gemma-3-4b-it, 12b-it
+    model_id = "google/gemma-3-4b-it"
+    model_name = model_id.split("/")[-1] # 取出 gemma-3-4b-it 作為資料夾名稱
+
+    # 建立輸出目錄: model_name
+    os.makedirs(model_name, exist_ok=True)
+    
+    # 定義輸出的 log 檔案名稱
+    # model_name/ground_truth_name.log
+    main_log_file = os.path.join(model_name, f"{ground_truth_name}.log")
+
     # 設定 logging，同時將結果輸出到終端機與 log 檔案
     logging.basicConfig(
         level=logging.INFO,
-        format='%(asctime)s - %(message)s',
+        format='%(message)s', # 簡化輸出格式，移除 asctime 避免太冗長
         handlers=[
-            logging.FileHandler("gemma3_kinetics_results.log", encoding="utf-8", mode='a'),
+            logging.FileHandler(main_log_file, encoding="utf-8", mode='a'),
             logging.StreamHandler()
         ]
     )
-
-    # instruction tuning: google/gemma-3-1b-it, 4b
-    model_id = "google/gemma-3-1b-it" # google/gemma-3-4b-it
     
     logging.info(f"載入模型與處理器: {model_id} ...")
     try:
@@ -167,10 +183,7 @@ def main():
             logging.info(f"⏱️ 耗時: {elapsed:.2f} 秒")
             logging.info(f"⚡ 速度: {tps:.2f} tokens/sec ({num_generated_tokens} tokens)")
             logging.info(f"🤖 模型回答:\n{response.strip()}")
-            
-            # 每處理完一支影片，立刻把結果寫入 log 避免中斷遺失
-            with open("gemma3_kinetics_results_details.log", "a", encoding="utf-8") as f:
-                f.write(f"影片: {v_path}\n耗時: {elapsed:.2f} 秒\n速度: {tps:.2f} tokens/sec\n回答: {response.strip()}\n{'-'*30}\n")
+            logging.info("-" * 30) # 新增分隔線，取代原本寫入 details log 的動作
                 
             results.append({
                 "video": v_path,
@@ -201,7 +214,7 @@ def main():
         logging.info(f"整體生成速度    : {avg_tps:.2f} tokens/sec")
         # if torch.cuda.is_available():
         #    logging.info(f"GPU 最高記憶體佔用: {peak_vram:.2f} GB")
-        logging.info("詳細測試結果已隨時記錄於 gemma3_kinetics_results_details.log 與 gemma3_kinetics_results.log")
+        logging.info(f"詳細測試結果已隨時記錄於 {main_log_file}")
 
 if __name__ == "__main__":
     main()
