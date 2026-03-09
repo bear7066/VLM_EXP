@@ -21,6 +21,7 @@ import time
 import os
 import logging
 from PIL import Image
+import argparse
 
 
 from huggingface_hub import login
@@ -50,6 +51,10 @@ def sample_frames(video_path, num_frames=8):
     return pil_frames
 
 def main():
+    parser = argparse.ArgumentParser(description="Run VLM inference on videos")
+    parser.add_argument("--video_dir", type=str, default="three_classes", help="Directory containing mp4/mkv files")
+    args = parser.parse_args()
+
     # 設定 logging，同時將結果輸出到終端機與 log 檔案
     logging.basicConfig(
         level=logging.INFO,
@@ -77,9 +82,10 @@ def main():
         return
     
     # 尋找本地影片檔案，直接從 mp4 資料夾讀取
-    video_paths = glob.glob("mp4/**/*.mp4", recursive=True) + glob.glob("mp4/**/*.mkv", recursive=True)
+    video_dir = args.video_dir
+    video_paths = glob.glob(os.path.join(video_dir, "**/*.mp4"), recursive=True) + glob.glob(os.path.join(video_dir, "**/*.mkv"), recursive=True)
         
-    logging.info(f"找到 {len(video_paths)} 支影片。")
+    logging.info(f"從 {video_dir} 尋找，共找到 {len(video_paths)} 支影片。")
     print("video amounts: ", len(video_paths))
     if len(video_paths) == 0:
         logging.error("❌ 找不到任何影片檔案，請確認下載已完成且解壓縮。")
