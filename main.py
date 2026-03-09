@@ -61,7 +61,7 @@ def main():
     )
 
     # instruction tuning: google/gemma-3-1b-it, 4b
-    model_id = "google/gemma-3-12b-it" # google/gemma-3-4b-it
+    model_id = "google/gemma-3-1b-it" # google/gemma-3-4b-it
     
     logging.info(f"載入模型與處理器: {model_id} ...")
     try:
