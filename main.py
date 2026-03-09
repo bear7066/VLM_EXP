@@ -121,7 +121,7 @@ def main():
     total_time = 0.0
     total_generated_tokens = 0
     successful_runs = 0
-    num_sampled_frames = 8 
+    num_sampled_frames = 16
     
     for i, v_path in enumerate(sampled_videos):
         logging.info(f"{'='*50}")

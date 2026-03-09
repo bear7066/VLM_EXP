@@ -1,26 +1,44 @@
+# /// script
+# requires-python = ">=3.9"
+# dependencies = [
+#     "matplotlib",
+#     "numpy",
+# ]
+# ///
+
 import re
 import matplotlib.pyplot as plt
 import numpy as np
 import os
 
-def parse_scores(file_path):
-    scores = []
-    try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            for line in f:
-                match = re.search(r'Score:\s*(\d+)', line)
-                if match:
-                    scores.append(int(match.group(1)))
-    except Exception as e:
-        print(f"讀取 {file_path} 發生錯誤: {e}")
-    return scores
+def get_all_scores_for_model(model_dir):
+    all_scores = []
+    if not os.path.exists(model_dir):
+        print(f"找不到資料夾: {model_dir}")
+        return all_scores
+        
+    for filename in os.listdir(model_dir):
+        # 尋找所有因為 llm_judge.py 產生的 judge_results.log 檔案
+        if filename.endswith('_judge_results.log'):
+            file_path = os.path.join(model_dir, filename)
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        # 擷取 Score: [數字] 的格式
+                        match = re.search(r'Score:\s*(\d+)', line)
+                        if match:
+                            all_scores.append(int(match.group(1)))
+            except Exception as e:
+                print(f"讀取 {file_path} 發生錯誤: {e}")
+                
+    return all_scores
 
 if __name__ == "__main__":
-    file_4b = '/Users/harry/Desktop/VLM/VLM_EXP/gemma3-4b_judge.log'
-    file_12b = '/Users/harry/Desktop/VLM/VLM_EXP/gemma3-12b_judge.log'
+    dir_4b = '/Users/harry/Desktop/VLM/VLM_EXP/gemma-3-4b-it'
+    dir_12b = '/Users/harry/Desktop/VLM/VLM_EXP/gemma-3-12b-it'
 
-    scores_4b = parse_scores(file_4b)
-    scores_12b = parse_scores(file_12b)
+    scores_4b = get_all_scores_for_model(dir_4b)
+    scores_12b = get_all_scores_for_model(dir_12b)
     
     if len(scores_4b) == 0 and len(scores_12b) == 0:
         print("未找到任何分數資料，請確認 log 檔案是否存在且格式正確。")
