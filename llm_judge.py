@@ -106,13 +106,23 @@ Reason: [Your brief explanation, max 20 words]
 
 def main():
     parser = argparse.ArgumentParser(description="Use GPT-5 to judge VLM results from a log file.")
-    parser.add_argument("log_file", type=str, nargs="?", default="gemma3-4b_details.log",
-                        help="Path to the .log file to evaluate (e.g. gemma3-4b_details.log)")
+    parser.add_argument("--video_dir", type=str, default="three_classes", help="Directory containing mp4/mkv files (used to infer ground truth name)")
+    parser.add_argument("--model_id", type=str, default="google/gemma-3-4b-it", help="Hugging Face model ID")
     args = parser.parse_args()
 
+    # 從 args 解析出和 main.py 一致的 log 目錄與檔名
+    clean_video_dir = os.path.normpath(args.video_dir)
+    ground_truth_name = os.path.basename(clean_video_dir)
+    if not ground_truth_name or ground_truth_name == ".":
+        ground_truth_name = "default_ground_truth"
+        
+    model_name = args.model_id.split("/")[-1]
+    
+    # 預期要讀取的 log 檔案路徑
+    log_file_path = os.path.join(model_name, f"{ground_truth_name}.log")
+
     # 自動根據輸入檔名命名輸出的判斷結果 Log
-    log_name = os.path.splitext(os.path.basename(args.log_file))[0]
-    output_log_file = f"{log_name}_judge_results.log"
+    output_log_file = os.path.join(model_name, f"{ground_truth_name}_judge_results.log")
     setup_logging(output_log_file)
     
     # 載入 .env 檔案與 OpenAI 金鑰，強制覆蓋以免吃到系統舊變數
@@ -126,7 +136,6 @@ def main():
     client = OpenAI(api_key=api_key)
     
     # 讀取指定的 log 檔案
-    log_file_path = args.log_file
     logging.info(f"開始解析紀錄檔: {log_file_path}")
     
     items_to_judge = parse_log_file(log_file_path)
