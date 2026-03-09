@@ -25,21 +25,10 @@ def setup_logging(output_filename):
         ]
     )
 
-def load_ground_truth(csv_path):
-    ground_truth = {}
-    if not os.path.exists(csv_path):
-        logging.error(f"找不到 CSV 檔案: {csv_path}")
-        return ground_truth
-    with open(csv_path, "r", encoding="utf-8-sig") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            if "youtube_id" in row and "label" in row:
-                ground_truth[row["youtube_id"]] = row["label"]
-    return ground_truth
-
-def parse_log_file(log_path, ground_truth):
+def parse_log_file(log_path):
     """
     從 gemma3-4b_details.log 中解析出每支影片及其對應的模型回答
+    並根據路徑中的資料夾名稱作為 ground truth
     """
     if not os.path.exists(log_path):
         logging.error(f"找不到日誌檔案: {log_path}")
@@ -65,13 +54,17 @@ def parse_log_file(log_path, ground_truth):
             video_path = video_match.group(1).strip()
             clean_answer = answer_match.group(1).strip()
             
-            # 從檔名解析 youtube_id (處理 ID 本身包含 '_' 的情況)
-            basename = os.path.basename(video_path) # e.g. -1B_EOupmCE_000076_000086.mp4
-            name_without_ext = os.path.splitext(basename)[0] # -1B_EOupmCE_000076_000086
-            # 使用 rsplit 切割最後兩個時間戳記
-            parts = name_without_ext.rsplit('_', 2)
-            youtube_id = parts[0]
-            label = ground_truth.get(youtube_id, "Unknown Action")
+            # 從檔案路徑解析資料夾名稱做為 label
+            # 例如: three_classes/falling_off_chair/xxx.mp4 -> falling_off_chair
+            # 取得影片檔案所在的上一層資料夾名稱
+            label = os.path.basename(os.path.dirname(video_path))
+            
+            # 若路徑沒有包含資料夾（或者與當前目錄相同），則顯示不明
+            if not label or label == "." or label == "..":
+                label = "Unknown Action"
+            else:
+                # 將底線替換為空白，以符合一般 ground truth 的格式
+                label = label.replace("_", " ")
             
             parsed_items.append({
                 "video": video_path,
@@ -115,8 +108,6 @@ def main():
     parser = argparse.ArgumentParser(description="Use GPT-5 to judge VLM results from a log file.")
     parser.add_argument("log_file", type=str, nargs="?", default="gemma3-4b_details.log",
                         help="Path to the .log file to evaluate (e.g. gemma3-4b_details.log)")
-    parser.add_argument("--csv_file", type=str, default="gp.csv",
-                        help="Path to the ground truth CSV file (e.g. gp.csv)")
     args = parser.parse_args()
 
     # 自動根據輸入檔名命名輸出的判斷結果 Log
@@ -134,15 +125,11 @@ def main():
         
     client = OpenAI(api_key=api_key)
     
-    # 讀取 CSV
-    csv_file_path = args.csv_file
-    ground_truth = load_ground_truth(csv_file_path)
-    
     # 讀取指定的 log 檔案
     log_file_path = args.log_file
     logging.info(f"開始解析紀錄檔: {log_file_path}")
     
-    items_to_judge = parse_log_file(log_file_path, ground_truth)
+    items_to_judge = parse_log_file(log_file_path)
     logging.info(f"成功解析出 {len(items_to_judge)} 筆待評估紀錄。")
     
     if not items_to_judge:
