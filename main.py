@@ -53,6 +53,7 @@ def sample_frames(video_path, num_frames=8):
 def main():
     parser = argparse.ArgumentParser(description="Run VLM inference on videos")
     parser.add_argument("--video_dir", type=str, default="three_classes", help="Directory containing mp4/mkv files")
+    parser.add_argument("--model_id", type=str, default="google/gemma-3-4b-it", help="Hugging Face model ID")
     args = parser.parse_args()
 
     # 取得 ground_truth_name (將路徑最後的資料夾名稱視為 ground_truth)
@@ -63,9 +64,9 @@ def main():
     if not ground_truth_name or ground_truth_name == ".":
         ground_truth_name = "default_ground_truth"
 
-    # instruction tuning: google/gemma-3-4b-it, 12b-it
-    model_id = "google/gemma-3-4b-it"
-    model_name = model_id.split("/")[-1] # 取出 gemma-3-4b-it 作為資料夾名稱
+    # 取得 model_id
+    model_id = args.model_id
+    model_name = model_id.split("/")[-1] # 取出模型名稱作為資料夾名稱
 
     # 建立輸出目錄: model_name
     os.makedirs(model_name, exist_ok=True)
