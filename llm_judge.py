@@ -87,8 +87,7 @@ The true action happening in the video is: {label}
 
 Please critically evaluate this description based on the following criteria:
 1. How good did the VLM successfully identify the core action ({label}) or relevant action?
-2. Did the VLM follow the length constraint (under 10 words)?
-3. Is it free from irrelevant background details or hallucinations?
+2. Is it free from irrelevant background details or hallucinations?
 
 Weigh strictly. Provide your evaluation in the following exact format:
 Score: [0-10]
