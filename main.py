@@ -205,7 +205,7 @@ def main():
     if successful_runs > 0:
         avg_time = total_time / successful_runs
         avg_tps = total_generated_tokens / total_time if total_time > 0 else 0
-        # peak_vram = torch.cuda.max_memory_allocated() / (1024 ** 3)
+        peak_vram = torch.cuda.max_memory_allocated() / (1024 ** 3)
         
         logging.info(f"\n{'='*20} 測試總結 {'='*20}")
         logging.info(f"成功處理影片數  : {successful_runs} / {sample_size}")
@@ -213,8 +213,8 @@ def main():
         logging.info(f"總生成 Tokens 數: {total_generated_tokens}")
         logging.info(f"平均每支影片耗時: {avg_time:.2f} 秒")
         logging.info(f"整體生成速度    : {avg_tps:.2f} tokens/sec")
-        # if torch.cuda.is_available():
-        #    logging.info(f"GPU 最高記憶體佔用: {peak_vram:.2f} GB")
+        if torch.cuda.is_available():
+            logging.info(f"GPU 最高記憶體佔用: {peak_vram:.2f} GB")
         logging.info(f"詳細測試結果已隨時記錄於 {main_log_file}")
 
 if __name__ == "__main__":
