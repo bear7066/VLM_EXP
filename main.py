@@ -114,7 +114,7 @@ def main():
     logging.info(f"開始測試，隨機抽取 {sample_size} 支影片進行推論...")
     
     prompt_text = (
-        "Describe what's happening in the video with the main action or activity with concise words(less than 20 words)"
+        "Describe the main action accurately in under 10 words."
     )
     
     results = []
