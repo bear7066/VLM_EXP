@@ -1,0 +1,320 @@
+開始解析紀錄檔: gemma-3-12b-it/falling_off_chair.log
+成功解析出 43 筆待評估紀錄。
+
+🚀 開始執行 LLM-as-a-Judge 評估...
+
+[1/43] 正在評估影片: falling_off_chair/falling_off_chair_XXN3CgCyEx4.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person playfully throws a chair and falls over.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 5  
+Reason: Partially identified action; includes hallucination ("throws a chair") not in ground truth.
+--------------------------------------------------
+[2/43] 正在評估影片: falling_off_chair/falling_off_chair_fDNX6WW_6jc.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person playfully falls backward onto a large sofa.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 3  
+Reason: Incorrect core action; described falling onto sofa, not off a chair.
+--------------------------------------------------
+[3/43] 正在評估影片: falling_off_chair/falling_off_chair_WD87x58wRsE.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: Here's a description of the main action in under 10 words:
+
+A person bends over a stool, playfully bumping another person.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: The VLM missed the core action (falling off chair), hallucinating irrelevant playful interaction.
+--------------------------------------------------
+[4/43] 正在評估影片: falling_off_chair/falling_off_chair_kwh65tVZyik.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person falls while playfully throwing a hat in the air.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 6  
+Reason: Captures fall but adds unnecessary detail about hat, not core to action.
+--------------------------------------------------
+[5/43] 正在評估影片: falling_off_chair/falling_off_chair_wNk1F7W5LIQ.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: Man falls backward off a dental chair, knocking over items.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Accurately identifies core action with minor detail, maintaining relevance without extraneous information.
+--------------------------------------------------
+[6/43] 正在評估影片: falling_off_chair/falling_off_chair_0xJzTTPKfXo.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person playfully throws a child onto a soft surface.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Description misses core action; includes inaccurate action, suggesting hallucination.
+--------------------------------------------------
+[7/43] 正在評估影片: falling_off_chair/falling_off_chair_y7GOcGQqVYM.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person throws a small object across a room.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 1  
+Reason: Fails to identify core action; provides irrelevant detail, indicating a possible hallucination.
+--------------------------------------------------
+[8/43] 正在評估影片: falling_off_chair/falling_off_chair_f6ZwvW_FD7U.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person is aggressively moving a table or object.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Incorrect action identified; hallucinated "moving a table" instead of "falling off chair."
+--------------------------------------------------
+[9/43] 正在評估影片: falling_off_chair/falling_off_chair_xFFQRtKizJk.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A man falls to the floor and struggles to get up.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Captures falling action accurately, but adds unnecessary detail about struggling to get up.
+--------------------------------------------------
+[10/43] 正在評估影片: falling_off_chair/falling_off_chair_3Jd_MXqwIKc.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A man playfully throws a white object at a seated person.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Description misses core action; includes irrelevant details/hallucinations unrelated to "falling off chair."
+--------------------------------------------------
+[11/43] 正在評估影片: falling_off_chair/falling_off_chair_p8o6EkXONhc.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person is aggressively attacking another person on the floor.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: Misidentifies action; description hallucinates violence irrelevant to falling off a chair.
+--------------------------------------------------
+[12/43] 正在評估影片: falling_off_chair/falling_off_chair_QQmQnfEXdOE.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person falls from a rocking chair onto a bed.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Captures core action but includes incorrect detail 'onto a bed.'
+--------------------------------------------------
+[13/43] 正在評估影片: falling_off_chair/falling_off_chair_-tTBQvmKfEs.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A man falls backward off a yellow chair.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 10  
+Reason: Accurately identifies core action without irrelevant details or hallucinations.
+--------------------------------------------------
+[14/43] 正在評估影片: falling_off_chair/falling_off_chair_qkCEuMm9vnY.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person is vandalizing a car with a hammer.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: Entirely incorrect; action identification fails and description hallucinates unrelated activity.
+--------------------------------------------------
+[15/43] 正在評估影片: falling_off_chair/falling_off_chair_6Bkk_IljKP4.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A man throws a bucket of dirt at another man.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 1  
+Reason: The VLM completely failed to identify the core action; described unrelated and hallucinatory event.
+--------------------------------------------------
+[16/43] 正在評估影片: falling_off_chair/falling_off_chair_f2nOuIPchP8.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A girl playfully interacts with the camera, making faces.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Missed the core action; described irrelevant background without falling off chair mention.
+--------------------------------------------------
+[17/43] 正在評估影片: falling_off_chair/falling_off_chair_vSyIph8s85U.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person falls backward, hitting their head on a curtain.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Identifies falling action, but adds "hitting head" detail not essential to core action.
+--------------------------------------------------
+[18/43] 正在評估影片: falling_off_chair/falling_off_chair_GotjwB_SgI0.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: Here's a description of the main action in under 10 words:
+
+Two people embrace in a dimly lit room.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: Failed to identify core action. Description includes irrelevant and hallucinated details.
+--------------------------------------------------
+[19/43] 正在評估影片: falling_off_chair/falling_off_chair_gCqTxLReCus.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person is playfully climbing and reaching up.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: VLM failed to identify the core action, mentioning irrelevant actions instead.
+--------------------------------------------------
+[20/43] 正在評估影片: falling_off_chair/falling_off_chair_W2237TK0wcI.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A child is playfully wrestling on a beach chair.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2
+Reason: Misses core action; introduces irrelevant details about wrestling and beach chair.
+--------------------------------------------------
+[21/43] 正在評估影片: falling_off_chair/falling_off_chair_kKhCkAkz1vk.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A girl playfully interacts with a boy while sitting on a stool.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Misses core action, falling; includes irrelevant detail on interaction, not essential to main event.
+--------------------------------------------------
+[22/43] 正在評估影片: falling_off_chair/falling_off_chair_06u5p4FNohA.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person playfully falls amidst a cluttered room.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 3  
+Reason: Includes "falls" action but adds unnecessary context, missing focus on "chair" and suggesting playfulness.
+--------------------------------------------------
+[23/43] 正在評估影片: falling_off_chair/falling_off_chair_Zi0fm17UBZE.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: Here's a description of the main action in under 10 words:
+
+**Individuals appear to be assaulting a person on the ground.**
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 1  
+Reason: The description fails to identify the core action and includes a significant hallucination.
+--------------------------------------------------
+[24/43] 正在評估影片: falling_off_chair/falling_off_chair_cGbA0ZsJ-tU.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A man playfully throws a woman, and they both fall.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 3  
+Reason: Misses core action, describes unrelated actions; includes hallucinations.
+--------------------------------------------------
+[25/43] 正在評估影片: falling_off_chair/falling_off_chair_twnAqdZkDZ8.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: Two people playfully wrestle and knock over a chair.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 5  
+Reason: Incorrect focus. Core action missed, introduces irrelevant details (wrestling).
+--------------------------------------------------
+[26/43] 正在評估影片: falling_off_chair/falling_off_chair_zNx9s_XbkUQ.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A man falls while attempting to balance on a chair.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: The description accurately identifies the core action with no irrelevant details or hallucinations.
+--------------------------------------------------
+[27/43] 正在評估影片: falling_off_chair/falling_off_chair_8LsomoWHlK0.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: Here's a description of the main action in under 10 words:
+
+Person falls from chair and lies on the floor.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Accurately captures core action, avoids irrelevant details, concise and precise description.
+--------------------------------------------------
+[28/43] 正在評估影片: falling_off_chair/falling_off_chair_YqW9B4aedKE.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: Here's a description of the main action in under 10 words:
+
+A person playfully jumps between tables and falls.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 6  
+Reason: Captures falling but adds unnecessary jumping context, missing chair-specific detail.
+--------------------------------------------------
+[29/43] 正在評估影片: falling_off_chair/falling_off_chair_IuWPZJHWVYA.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A girl falls from a spinning ride, landing on the ground.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2   
+Reason: VLM inaccurately describes action, confusing it with "spinning ride" and unnecessary hallucination of falling context.
+--------------------------------------------------
+[30/43] 正在評估影片: falling_off_chair/falling_off_chair_fxKsubHkXMc.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person jumps, knocking over a chair and table.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 3  
+Reason: The VLM missed the core action, added irrelevant actions like jumping and knocking over a table.
+--------------------------------------------------
+[31/43] 正在評估影片: falling_off_chair/falling_off_chair_sl_oBU2ukJ8.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: People appear to be arguing or confronting each other.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 1  
+Reason: Completely missed core action; described unrelated argument scene, displaying significant hallucination.
+--------------------------------------------------
+[32/43] 正在評估影片: falling_off_chair/falling_off_chair_-5hw88bD4mE.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: Here's a description of the main action in under 10 words:
+
+Someone is throwing a white object towards a whiteboard.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 1  
+Reason: Missed core action; irrelevant details present; misidentifies context completely.
+--------------------------------------------------
+[33/43] 正在評估影片: falling_off_chair/falling_off_chair_y1OlPGzMbNA.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A girl playfully knocks over a chair, laughing.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 3  
+Reason: VLM missed core action, added hallucination of "knocks over," irrelevant to "falling off chair."
+--------------------------------------------------
+[34/43] 正在評估影片: falling_off_chair/falling_off_chair_5xlTi_-c7NY.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person falls from a chair, seemingly assisted by others.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Identifies core action but includes hallucination "assisted by others."
+--------------------------------------------------
+[35/43] 正在評估影片: falling_off_chair/falling_off_chair_q6b9VXig4e0.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: Three men in matching outfits appear to be dancing on stage.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: Failed to identify core action and included inaccurate, unrelated details.
+--------------------------------------------------
+[36/43] 正在評估影片: falling_off_chair/falling_off_chair_t3N44ZENWIQ.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person collapses onto a desk in an office.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 4  
+Reason: Misses core action "falling off chair," adds extraneous detail "collapses onto a desk."
+--------------------------------------------------
+[37/43] 正在評估影片: falling_off_chair/falling_off_chair_N516jor-Y5I.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person sits in a chair watching a laptop screen.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Failed to identify core action; focused on irrelevant details like sitting and watching a screen.
+--------------------------------------------------
+[38/43] 正在評估影片: falling_off_chair/falling_off_chair_3Ctreec2zrQ.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: Here's a description of the main action in under 10 words:
+
+One man falls from a chair, landing on the floor.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 9  
+Reason: Accurately identifies core action with concise language; no irrelevant details or hallucinations present.
+--------------------------------------------------
+[39/43] 正在評估影片: falling_off_chair/falling_off_chair_1RZYhr6hly4.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A toddler is attempting to stand up from a seated position.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Misses core action, falling off chair; includes unrelated standing attempt.
+--------------------------------------------------
+[40/43] 正在評估影片: falling_off_chair/falling_off_chair_uG1ZPoaMync.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A man in a Viking helmet falls down the stairs.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Incorrect action; irrelevant detail with "Viking helmet" and wrong location "stairs."
+--------------------------------------------------
+[41/43] 正在評估影片: falling_off_chair/falling_off_chair_XMKm4hjLFXk.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person is being carried or lifted by another person.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 1  
+Reason: VLM's description is inaccurate and hallucinatory; fails to identify or relate to core action.
+--------------------------------------------------
+[42/43] 正在評估影片: falling_off_chair/falling_off_chair_tCZvKt-dKdY.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A boy crawls under a table in a classroom.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 1  
+Reason: Missed core action entirely; description unrelated and irrelevant to "falling off chair."
+--------------------------------------------------
+[43/43] 正在評估影片: falling_off_chair/falling_off_chair_l3U5BF9jUa4.mp4 (Ground Truth: falling off chair)
+🤖 VLM 回答內容: A person falls while seemingly reaching for something above.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Accurately captures the core action with some added context; still relevant, not a hallucination.
+--------------------------------------------------
