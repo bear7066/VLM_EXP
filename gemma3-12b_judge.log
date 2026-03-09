@@ -7,7 +7,7 @@
 🤖 VLM 回答內容: The video shows someone ice climbing on a frozen beach with a specialized ice climbing tool.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 1
+Score: 5
 Reason: Coherent but completely wrong; fails to identify snowkiting and hallucinates ice tools and frozen beach.
 --------------------------------------------------
 [2/50] 正在評估影片: mp4/-0HSpenSJGs_000000_000010.mp4 (Ground Truth: juggling balls)
@@ -39,7 +39,7 @@ Reason: Concise and coherent; implies scissors trimming but doesn't mention hair
 Someone is preparing a sauce, mashing ingredients like garlic and tomatoes by hand.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 0
+Score: 4
 Reason: Coherent but entirely incorrect; misses peeling potatoes and hallucinates sauce, garlic, tomatoes.
 --------------------------------------------------
 [6/50] 正在評估影片: mp4/-0oMsq-9b6c_000095_000105.mp4 (Ground Truth: sanding floor)
@@ -49,11 +49,11 @@ HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 Score: 9
 Reason: Concise, coherent, correctly identifies sanding floor; minor unverified vacuum detail may be hallucinated.
 --------------------------------------------------
-[7/50] 正在評估影片: mp4/-0WBheGENmk_000009_000019.mp4 (Ground Truth: skipping rope)
+🌟 [7/50] 正在評估影片: mp4/-0WBheGENmk_000009_000019.mp4 (Ground Truth: skipping rope)
 🤖 VLM 回答內容: Evander Holyfield is playfully juggling limes while wearing a headset and Adidas tracksuit.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 0
+Score: 4
 Reason: Coherent sentence but entirely incorrect; misses skipping rope and adds multiple hallucinated details.
 --------------------------------------------------
 [8/50] 正在評估影片: mp4/-1Kv095GbV8_000000_000010.mp4 (Ground Truth: dancing ballet)
@@ -115,14 +115,14 @@ Reason: Concise and coherent; correctly identifies receiving award, but hallucin
 🤖 VLM 回答內容: A man in a wheelchair is maneuvering and flipping his chair to right himself after it tipped over.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 1
+Score: 5
 Reason: Coherent but incorrect; describes tipping and self-righting, not pushing a wheelchair. Significant hallucinations.
 --------------------------------------------------
 [16/50] 正在評估影片: mp4/-1KMJ1BZ2mU_000017_000027.mp4 (Ground Truth: climbing ladder)
 🤖 VLM 回答內容: A child is falling from a wooden structure, likely a play area, and being caught by someone below.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 1
+Score: 5
 Reason: Coherent but entirely incorrect; hallucinates falling, rescuer, play area; fails to identify climbing ladder.
 --------------------------------------------------
 [17/50] 正在評估影片: mp4/-0S06ntmN_I_000019_000029.mp4 (Ground Truth: stretching arm)
@@ -154,7 +154,7 @@ Reason: Concise and coherent, but generic throwing, not clearly American footbal
 A woman performs a dynamic aerial silks routine, being assisted by a spotter.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 1
+Score: 5
 Reason: Coherent but wrong: confuses trapeze with aerial silks and invents a spotter; fails to identify action.
 --------------------------------------------------
 [21/50] 正在評估影片: mp4/-0Yb1tD3HUo_000004_000014.mp4 (Ground Truth: golf putting)
@@ -205,7 +205,7 @@ Reason: Coherent, but misidentifies action; adds ungrounded hospital/worker/pati
 🤖 VLM 回答內容: A person is using a vacuum pump to clean dust and debris from an electrical panel.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 0
+Score: 4
 Reason: Coherent but entirely incorrect; fails to identify changing oil and introduces unrelated elements.
 --------------------------------------------------
 [28/50] 正在評估影片: mp4/-0cOo0cRVZU_000008_000018.mp4 (Ground Truth: shooting basketball)
@@ -249,7 +249,7 @@ Reason: Concise and coherent, but misses eating spaghetti and hallucinates carro
 A drone is flying in a clear blue sky, leaving a visible trail behind it.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 1
+Score: 5
 Reason: Concise and coherent but misidentifies kite as drone; ignores human; hallucinates trail; wrong action.
 --------------------------------------------------
 [34/50] 正在評估影片: mp4/-08KE5FkRUU_000001_000011.mp4 (Ground Truth: hurling (sport))
@@ -286,7 +286,7 @@ Reason: Concise and coherent; correctly describes unboxing. Minor potential hall
 🤖 VLM 回答內容: Two people are playfully battling with toy guns, laughing and reacting to each other's actions.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 0
+Score: 4
 Reason: Coherent but entirely incorrect; fails to identify headbanging and hallucinates toy gun battle.
 --------------------------------------------------
 [39/50] 正在評估影片: mp4/-1brKJdL-iM_000093_000103.mp4 (Ground Truth: golf chipping)
@@ -302,7 +302,7 @@ Reason: Concise and coherent, but misidentifies chipping as putting; action desc
 🤖 VLM 回答內容: A potter is shaping a clay bowl on a spinning pottery wheel.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 10
+Score: 50
 Reason: Concise, coherent, correctly describes clay pottery making without extraneous details or hallucinations.
 --------------------------------------------------
 [41/50] 正在評估影片: mp4/-0HRnFhCDdc_000026_000036.mp4 (Ground Truth: shaking hands)
@@ -325,7 +325,7 @@ Reason: Identifies kayaking, coherent, but hallucinates ducks, lily pads, and al
 🤖 VLM 回答內容: A toddler is running, falling, crawling, and playing on a grassy lawn.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 1
+Score: 5
 Reason: Coherent and concise, but fails to mention somersaulting and adds unverified actions; thus inaccurate and hallucinatory.
 --------------------------------------------------
 [44/50] 正在評估影片: mp4/-1lbeA9Jogw_000000_000010.mp4 (Ground Truth: smoking hookah)
@@ -355,14 +355,14 @@ Reason: Concise and coherent; correctly identifies kayaking but adds unsupported
 🤖 VLM 回答內容: Someone is changing a tire on a race car's engine, likely during a pit stop.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 0
+Score: 4
 Reason: Incoherent ("tire on engine"), completely misses oil change, adds race car and pit stop hallucinations.
 --------------------------------------------------
 [48/50] 正在評估影片: mp4/-0HKFF7F_BY_000003_000013.mp4 (Ground Truth: yawning)
 🤖 VLM 回答內容: A baby is exploring and playing on a pile of blankets and clothes.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 1
+Score: 5
 Reason: Coherent, but completely misses yawning and introduces unrelated context; fails to describe the primary action.
 --------------------------------------------------
 [49/50] 正在評估影片: mp4/-0_5tJuIrJA_000004_000014.mp4 (Ground Truth: zumba)

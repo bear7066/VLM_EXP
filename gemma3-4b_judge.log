@@ -9,7 +9,7 @@
 Someone is attaching a vacuum nozzle to a vacuum pump for cleaning purposes.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 1
+Score: 5
 Reason: Concise and coherent but entirely misidentifies action; mentions vacuum cleaning, not oil change; clear hallucination.
 --------------------------------------------------
 [2/50] 正在評估影片: mp4/-0-ukHRelxA_000015_000025.mp4 (Ground Truth: petting animal (not cat))
@@ -124,7 +124,7 @@ Reason: Concise and coherent; correctly identifies golf putting, but adds unveri
 A person is performing a twisting split stretch on a padded mat in a gym setting.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 1
+Score: 5
 Reason: Coherent but wrong action; describes split stretch with gym/mat details—hallucinated, not arm-specific.
 --------------------------------------------------
 [15/50] 正在評估影片: mp4/-0aDlftNdyw_000280_000290.mp4 (Ground Truth: eating watermelon)
@@ -149,7 +149,7 @@ Reason: Concise and accurate description of clay pottery making; minor unwarrant
 A person in a wheelchair is struggling to flip it over, appearing to be stuck.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 2
+Score: 8
 Reason: Concise/coherent, but misidentifies action; hallucinates flipping/stuck instead of pushing wheelchair.
 --------------------------------------------------
 [18/50] 正在評估影片: mp4/-1IlTIWPNs4_000027_000037.mp4 (Ground Truth: shoveling snow)
@@ -194,7 +194,7 @@ Reason: Coherent, concise, but fails to mention handshake; introduces a dog and 
 A woman is preparing a dish, likely a sauce or marinade, by adding ingredients to a glass container.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 1
+Score: 5
 Reason: Coherent but entirely incorrect; fails to mention peeling potatoes and introduces unrelated sauce preparation.
 --------------------------------------------------
 [23/50] 正在評估影片: mp4/-1Kv095GbV8_000000_000010.mp4 (Ground Truth: dancing ballet)
@@ -239,7 +239,7 @@ Reason: Concise and coherent, but omits “basketball” and adds an unverified 
 Two people are playing a game with small, yellow bottles, laughing and interacting closely.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 1
+Score: 5
 Reason: Coherent sentence but completely misses headbanging; hallucinates two people and yellow bottles; inaccurate action description.
 --------------------------------------------------
 [28/50] 正在評估影片: mp4/-0R6wpipD-c_000035_000045.mp4 (Ground Truth: eating spaghetti)
@@ -320,7 +320,7 @@ Reason: Accurate and coherent; identifies snowboarding. Slightly verbose and ass
 A young child is playfully exploring a grassy area, crawling, rolling, and running around.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 1
+Score: 5
 Reason: Coherent but misses somersaulting; mentions crawling/running, likely hallucinations. Inaccurate action identification.
 --------------------------------------------------
 [37/50] 正在評估影片: mp4/-1GUNrYsD4Y_000018_000028.mp4 (Ground Truth: canoeing or kayaking)
@@ -347,7 +347,7 @@ Reason: Coherent and identifies marching, but adds unverified details (“Thai,�
 Someone is ice fishing on a frozen beach, using a specialized harness system.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 1
+Score: 5
 Reason: Coherent but wrong. Misidentifies snowkiting as ice fishing; includes irrelevant harness/beach details. Fails accuracy.
 --------------------------------------------------
 [40/50] 正在評估影片: mp4/-05APhKiIXc_000070_000080.mp4 (Ground Truth: golf chipping)
@@ -428,7 +428,7 @@ Reason: Concise and coherent; correctly identifies kayaking, but adds likely hal
 A man in a tracksuit is holding and manipulating small, green objects while standing in a gym setting.
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 📝 GPT-5 評語:
-Score: 1
+Score: 5
 Reason: Coherent but completely misses skipping rope; hallucinates “small, green objects,” failing to describe the action.
 --------------------------------------------------
 [49/50] 正在評估影片: mp4/-02uQdK46rE_000014_000024.mp4 (Ground Truth: shaving legs)
