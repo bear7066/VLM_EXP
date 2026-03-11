@@ -1,0 +1,107 @@
+============================================================
+分析報告：face_planting 低分結果
+模型: gemma-3-4b-it | 幀數: 16 frames
+============================================================
+
+總筆數: 46 筆
+5 分以下筆數: 24 筆 (52.2%)
+
+【分數分布】
+Score 0: 2 筆 (faceplanting_kIhT0fUUPK0, faceplanting_e7AnmQTKegM)
+Score 1: 4 筆 (faceplanting_SBWpjWPvFho, faceplanting_DnxygkTssDc, faceplanting_wjmyNaK6TRc, faceplanting__wJfPEwJn_s)
+Score 2: 11 筆
+Score 3: 4 筆
+Score 4: 3 筆
+
+============================================================
+【失敗模式分類】
+============================================================
+
+--- 類型一：嚴重幻覺 (Score 0~1) - 共 6 筆 ---
+模型完全捏造了和影片無關的場景
+
+  [Score 0] faceplanting_kIhT0fUUPK0
+    VLM: "Person watches someone waterskiing on a homemade board."
+    GPT: VLM completely missed core action; description irrelevant with hallucinated details.
+
+  [Score 0] faceplanting_e7AnmQTKegM
+    VLM: "Person standing on snowy, icy terrain, casting a shadow."
+    GPT: The VLM missed the core action and introduced irrelevant details (standing on terrain).
+
+  [Score 1] faceplanting_SBWpjWPvFho
+    VLM: "Students appear to be restraining a classmate."
+    GPT: Completely incorrect action, describes non-relevant action.
+
+  [Score 1] faceplanting_DnxygkTssDc
+    VLM: "Baby nestled amongst toys in a box."
+    GPT: Description misses main action and includes irrelevant detail about baby and toys.
+
+  [Score 1] faceplanting_wjmyNaK6TRc
+    VLM: "Man waterskiing behind a boat on a lake."
+    GPT: Completely missed core action (face planting); irrelevant focus on waterskiing.
+
+  [Score 1] faceplanting__wJfPEwJn_s
+    VLM: "Baby girl playfully dances near a brick fireplace."
+    GPT: Failed to identify core action; description focuses on irrelevant actions and details.
+
+--- 類型二：背景主導 (Score 2) - 共 11 筆 ---
+模型描述了場景或活動，但完全忽視「臉部著地」的核心動作
+
+  [Score 2] faceplanting_DAeLsJBXaAA     → "Child performs stunts with a bicycle on ramps."
+  [Score 2] faceplanting_Us1OJs0UxE0     → "Child struggles to climb stairs in a laundry basket."
+  [Score 2] faceplanting_7IWBLXPrxoQ     → "People sledding down a snowy, winding hillside."
+  [Score 2] faceplanting_mk9eyW1bzAU     → "Beachgoers playfully engage in a chaotic water game."
+  [Score 2] faceplanting_11YmgupLXYE     → "An emu is being balanced on a person's feet." ← 極端幻覺
+  [Score 2] faceplanting_Kj725DEceik     → "A young man crawls under a bedroom door."
+  [Score 2] faceplanting_nsjqgD_St9w     → "Child playfully runs through the living room."
+  [Score 2] faceplanting_X7ztDnayQAo     → "Group playfully tosses a person onto a trampoline."
+  [Score 2] faceplanting_m84Zlf4UxK0     → "Kids struggle through an obstacle course in the woods."
+  [Score 2] faceplanting_oxPAGFHhE5s     → "Mountain biker navigating a dirt jump course."
+  [Score 2] faceplanting_wF-7CEJZ4w8     → "Person performing acrobatic flips on a gymnastics floor."
+  [Score 2] faceplanting_neeVaqbf7wI     → "Person smashing pills on a table." ← 嚴重幻覺
+  [Score 2] faceplanting_Oinr3wRnArM     → "Child joyfully splashes through a muddy, flooded field."
+  [Score 2] faceplanting_JR9LTG9F4j0     → "Person snowboarding on a snowy mountain slope."
+
+--- 類型三：動作類型混淆 (Score 3~4) - 共 7 筆 ---
+模型察覺「有在動/有在跌倒」，但給出錯誤的動作類別
+
+  [Score 3] faceplanting_QbyBACtRcz8     → "Two babies playfully wrestling on a rumpled bed."
+  [Score 3] faceplanting__3Sd76OyNxo     → "People sledding down a snowy, icy hill."
+  [Score 3] faceplanting_-dLXIIjWS-c    → "Child sledding down a deep snow drift."
+  [Score 3] faceplanting_Z-beIVl_wPs     → "A person repeatedly fails to jump over an orange." ← 幻覺 (orange)
+  [Score 4] faceplanting_ZObLHal3oPg     → "Person attempting a series of awkward, failed jumps."
+  [Score 4] faceplanting_RhL1gAwe9K4     → "Man attempts a dangerous jump on a trampoline."
+  [Score 4] faceplanting_4FgYoZSabV0     → "Mountain biker crashes repeatedly, covered in dirt."
+
+============================================================
+【與 8 frames 版本比較】
+============================================================
+
+  8 frames 低於 5 分的筆數: 24/46 (52.2%)
+  16 frames 低於 5 分的筆數: 24/46 (52.2%)
+
+  → 失敗總數完全相同！16 frames 對 face_planting 的識別準確度沒有顯著改善。
+
+【觀察】
+1. 同一批影片（如 faceplanting_kIhT0fUUPK0, faceplanting_JR9LTG9F4j0）在 8 幀和 16 幀兩個版本中
+   都持續失敗，且回答幾乎相同，說明框數的增加並未幫助模型抓到關鍵的「臉部著地」幀。
+
+2. 最大差異：少數影片（如 faceplanting_ng_6Awo2Luo）在 16 幀版本中有所改善，
+   從 8 幀的 Score 1 ("Young boy trapped under a blue blanket") 提升至
+   16 幀的 Score 7 ("Young boy falls and rolls on the floor")，
+   說明對某些影片，增加幀數確實能抓到更關鍵的動作幀。
+
+3. 16 幀出現的獨特幻覺：「An emu is being balanced on a person's feet.」(Score 2)
+   這在 8 幀版本中未出現。多的圖片有時反而提供了更多讓模型誤解的背景元素。
+
+============================================================
+【結論】
+============================================================
+face_planting 對 Gemma-3-4b-it 而言是最難的類別，主因：
+- 關鍵動作（臉部著地）時間極短（0.2~0.5 秒）
+- 影片背景複雜（雪地、沙灘、障礙賽場、室內）
+- 4B 模型的視覺特徵抽取能力不足以辨識細微的動作方向性（臉朝下 vs 其他跌倒方式）
+- 增加幀數（8→16）對整體準確率幾乎沒有影響，問題出在模型能力本身，而非幀數
+
+建議: 若要提升此類別的準確率，需使用更大的模型（12B 或以上），
+或搭配「Object Detection + Keypoint 先偵測臉部方向」的 Cascade 架構。

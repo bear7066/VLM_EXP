@@ -1,0 +1,111 @@
+============================================================
+分析報告：face_planting 低分結果
+模型: gemma-3-12b-it | 幀數: 32 frames
+============================================================
+
+總筆數: 46 筆
+5 分以下筆數: 22 筆 (47.8%)
+
+【分數分布】
+Score 0: 3 筆 (faceplanting_Kj725DEceik, faceplanting_neeVaqbf7wI, faceplanting_RhL1gAwe9K4 → 2分已重新歸類)
+Score 1: 1 筆 (faceplanting_-dLXIIjWS-c)
+Score 2: 15 筆
+Score 3: 0 筆
+Score 4: 3 筆
+
+============================================================
+【失敗模式分類】
+============================================================
+
+--- 類型一：嚴重幻覺 (Score 0~1) - 共 4 筆 ---
+模型完全捏造了和影片無關的場景
+
+  [Score 0] faceplanting_Kj725DEceik
+    VLM: "A person playfully throws a blanket over a bed."
+    GPT: The VLM failed to identify the core action and hallucinated irrelevant details.
+    ⚠️ 跨版本持續失敗: 4b-8F(2), 4b-16F(2), 12b-16F(0), 12b-32F(0)
+       此影片對所有配置均完全失敗，建議人工確認影片標籤是否本身有誤。
+
+  [Score 0] faceplanting_neeVaqbf7wI
+    VLM: "A person throws disposable cups off a table."
+    GPT: Description fails to identify core action and contains irrelevant actions.
+    ⚠️ 4b-16F 版本回答「Person smashing pills on a table」(Score 2)，同樣充滿幻覺。
+       這部影片推測拍攝場景可能是充滿物品的桌面，嚴重誤導模型。
+
+  [Score 2] faceplanting_RhL1gAwe9K4 (★ 32F 新出現的退步案例)
+    VLM: "A man performs a daring, upside-down hang on a trampoline."
+    GPT: Misses core action, face planting; irrelevant details of upside-down hang present.
+    ⚠️ 同一影片在 12b-16F 拿到 Score 8（"A man attempts a flip off a trampoline and fails"）
+       但 32F 反而退化成「upside-down hang」這樣的離譜描述。
+       原因可能是 32 幀中包含更多跳躍過程中的「倒立瞬間」，誤導了模型。
+
+  [Score 1] faceplanting_-dLXIIjWS-c
+    VLM: "A child kneels in the snow, throwing snow with a sled."
+    GPT: Description misses core action, includes irrelevant actions, possibly hallucinates.
+    ⚠️ 4b-16F(3), 12b-16F(7)→ 12b-32F(1)：32幀版本反而更差，退化明顯。
+
+--- 類型二：背景主導 (Score 2) - 共 15 筆 ---
+模型描述場景或活動，完全忽視「臉部著地」的核心動作
+
+  [Score 2] faceplanting_wF-7CEJZ4w8    → "A person performs a backflip in a large gym."
+  [Score 2] faceplanting_X7ztDnayQAo    → "A man playfully throws a child off a trampoline."
+  [Score 2] faceplanting_mk9eyW1bzAU    → "Group of young men playfully wrestle in the surf on a beach."
+  [Score 2] faceplanting_nsjqgD_St9w    → "A young child playfully dances and crawls around a room."
+  [Score 2] faceplanting_Us1OJs0UxE0    → "A child is struggling on a bed near a door."
+  [Score 2] faceplanting_TAG04GA-p_Q    → "A child crawls away from a slide, assisted by an adult."
+  [Score 2] faceplanting_QbyBACtRcz8    → "Two babies play on a bed, one pretending to talk on a phone."
+  [Score 2] faceplanting_DnxygkTssDc    → "A baby is moving around in a playpen."
+  [Score 2] faceplanting_SBWpjWPvFho    → "Students restrain a classmate in a classroom setting."
+  [Score 2] faceplanting_wjmyNaK6TRc    → "A boat is towing a wakeboarder across a lake."
+  [Score 2] faceplanting_JR9LTG9F4j0    → "A snowboarder speeds down an icy slope with a scenic view."
+  [Score 2] faceplanting_DAeLsJBXaAA    → "A cyclist performs a complex bike stunt over a ramp."
+  [Score 2] faceplanting__wJfPEwJn_s    → "A toddler playfully runs towards a door, smiling."
+  [Score 2] faceplanting_e7AnmQTKegM    → "Person snowboarding down a snowy slope, creating a shadow."
+  [Score 2] faceplanting_ng_6Awo2Luo    → "A toddler crawls on a blue blanket on the floor."
+  [Score 2] faceplanting_oxPAGFHhE5s    → "A cyclist rides through a dirt bike jump track."
+
+--- 類型三：動作近似但不精確 (Score 4) - 共 3 筆 ---
+模型察覺「有人在移動/跌倒」，但動作描述不夠精確
+
+  [Score 4] faceplanting_o5FiLY-wObk    → "A man falls while running from a caiman." (幻覺：caiman)
+  [Score 4] faceplanting_kr4B88Ldgso    → "A toddler sits on a slide, then falls off."
+  [Score 4] faceplanting_7IWBLXPrxoQ    → "A dog and a person slide down a snowy hill."
+
+============================================================
+【四版本完整比較】
+============================================================
+
+  4b  | 8 frames  → 低於 5 分: 24/46 (52.2%)
+  4b  | 16 frames → 低於 5 分: 24/46 (52.2%)
+  12b | 16 frames → 低於 5 分: 17/46 (37.0%)  ← 最佳！
+  12b | 32 frames → 低於 5 分: 22/46 (47.8%)  ← 退步？
+
+⚠️ 重要發現：12b 在 32 frames 的表現反而比 16 frames 更差！
+
+============================================================
+【12b 幀數回歸的可能解釋】
+============================================================
+
+1. 「More frames = More confusion」效應：
+   對於某些本身就充滿誤導性靜態場景的影片（如滑雪板坡道、深水區），
+   增加到 32 幀後，模型接觸到更多「動作發生前/後」的背景畫面（95%的雪地景色），
+   而面部著地瞬間（5%的核心幀）反而被更進一步地稀釋，難以被注意到。
+
+2. 倒退案例 (Regression)：
+   faceplanting_RhL1gAwe9K4：16F → Score 8，32F → Score 2
+   faceplanting_-dLXIIjWS-c： 16F → Score 7，32F → Score 1
+   這說明 32 幀在某些情況下確實傷害了模型的判斷，而非幫助。
+
+3. 仍存在 Score 9 的亮點：
+   faceplanting_Z-beIVl_wPs (32F) = Score 9："falls face-first into the sand"
+   faceplanting_Q3LkU_qIANE (32F) = Score 9："falls face-first into the snow"
+   說明對於「臉部著地方向很明顯」的影片，32 幀確實讓模型更精準。
+
+============================================================
+【結論】
+============================================================
+- 對 face_planting 而言，最佳配置是: gemma-3-12b-it + 16 frames (37.0% 低分率)
+- 幀數並非越多越好：32 frames 反而比 16 frames 差 (-10.8%)
+- 目前仍有 6~8 部「頑固失敗影片」在所有配置下持續得 0~2 分，
+  這些影片本身可能存在標籤歧義或攝影角度問題，建議人工審查。
+- 下一步建議：嘗試 gemma-3-27b 或定向優化 Prompt（明確提示「注意臉部朝向」）。

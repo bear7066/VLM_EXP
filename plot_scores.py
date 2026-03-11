@@ -34,8 +34,13 @@ def get_all_scores_for_model(model_dir):
     return all_scores
 
 if __name__ == "__main__":
+<<<<<<< Updated upstream
     dir_4b = 'gemma-3-4b-it_32frames'
     dir_12b = 'gemma-3-12b-it_32frames'
+=======
+    dir_4b = 'gemma-3-4b-it_8frames'
+    dir_12b = 'gemma-3-12b-it_8frames'
+>>>>>>> Stashed changes
 
     scores_4b = get_all_scores_for_model(dir_4b)
     scores_12b = get_all_scores_for_model(dir_12b)
