@@ -41,7 +41,7 @@ def sample_frames(video_path, num_frames=8):
 
 def main():
     parser = argparse.ArgumentParser(description="Run VLM inference on videos")
-    parser.add_argument("--video_dir", type=str, default="three_classes", help="Directory containing mp4/mkv files")
+    parser.add_argument("--video_dir", type=str, default="./dataset/climbing_stair", help="Directory containing mp4/mkv files")
     parser.add_argument("--model_id", type=str, default="google/gemma-3-4b-it", help="Hugging Face model ID")
     args = parser.parse_args()
 
