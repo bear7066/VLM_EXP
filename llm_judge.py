@@ -1,11 +1,3 @@
-# /// script
-# requires-python = ">=3.9"
-# dependencies = [
-#     "openai",
-#     "python-dotenv",
-# ]
-# ///
-
 import os
 import re
 import csv
@@ -122,6 +114,9 @@ def main():
 
     # 自動根據輸入檔名命名輸出的判斷結果 Log
     output_log_file = os.path.join(model_name, f"{ground_truth_name}_judge_results.log")
+
+    os.makedirs(model_name, exist_ok=True)
+
     setup_logging(output_log_file)
     
     # 載入 .env 檔案與 OpenAI 金鑰，強制覆蓋以免吃到系統舊變數

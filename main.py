@@ -1,31 +1,20 @@
-# /// script
-# requires-python = ">=3.9"
-# dependencies = [
-#     "torch",
-#     "transformers",
-#     "accelerate",
-#     "decord",
-#     "numpy",
-#     "pillow",
-#     "huggingface-hub",
-# ]
-# ///
+import os
+import random
+import glob
+import time
+import logging
+import argparse
 
 import torch
 from transformers import AutoProcessor, AutoModelForCausalLM
 import decord
 import numpy as np
-import random
-import glob
-import time
-import os
-import logging
 from PIL import Image
-import argparse
 
 
-from huggingface_hub import login
-login()  
+print("torch version =", torch.__version__)
+print("cuda available =", torch.cuda.is_available())
+print("torch cuda version =", torch.version.cuda)
 
 def sample_frames(video_path, num_frames=8):
     """
@@ -85,14 +74,17 @@ def main():
         ]
     )
     
+    hf_token = os.environ.get("HF_TOKEN")
+
     logging.info(f"載入模型與處理器: {model_id} ...")
     try:
-        processor = AutoProcessor.from_pretrained(model_id)
+        processor = AutoProcessor.from_pretrained(model_id, token=hf_token)
         # 使用 bfloat16 以節省 VRAM 並加速
         model = AutoModelForCausalLM.from_pretrained(
-            model_id, 
-            dtype=torch.bfloat16, 
-            device_map="cuda:0"
+            model_id,
+            token = hf_token,
+            dtype = torch.bfloat16, 
+            device_map = "auto"
         )
     except Exception as e:
         logging.error(f"載入模型失敗，請確認已安裝最新版 transformers 並且有 Gemma 3 的存取權限: {e}")
@@ -121,7 +113,7 @@ def main():
     total_time = 0.0
     total_generated_tokens = 0
     successful_runs = 0
-    num_sampled_frames =32
+    num_sampled_frames = 8
     
     for i, v_path in enumerate(sampled_videos):
         logging.info(f"{'='*50}")
