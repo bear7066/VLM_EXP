@@ -1,0 +1,355 @@
+開始解析紀錄檔: gemma-3-4b-it/climbing_stair.log
+成功解析出 50 筆待評估紀錄。
+
+🚀 開始執行 LLM-as-a-Judge 評估...
+
+[1/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_MYCbXYVc9Dg.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Child playfully climbs and explores the bunk bed.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Captures climbing action, but context differs; mentions bunk bed, not stairs.
+--------------------------------------------------
+[2/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_Uz_MXVAY-o0.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Child climbs a colorful playground structure.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Identifies core climbing action, though "playground structure" differs slightly from "stair," minor irrelevant detail.
+--------------------------------------------------
+[3/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_PuhNmqGQKdU.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Man precariously balanced on a sloped ladder.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 1  
+Reason: The description misidentified the action and included irrelevant and incorrect elements like "sloped ladder".
+--------------------------------------------------
+[4/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_-oTJpv9-94c.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Man climbing a specialized, motorized ladder structure.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Core action "climbing" identified, but added "specialized, motorized ladder" detail is irrelevant/a hallucination.
+--------------------------------------------------
+[5/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_soZe82Acqbc.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Man climbing a fire escape on a building.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Correct core action 'climbing'; includes minor hallucination 'fire escape', but relevant, not irrelevant details.
+--------------------------------------------------
+[6/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_MK-rJSH0bYI.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Child climbs a colorful playground structure.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Correct core action identified, but adds irrelevant detail "colorful playground structure".
+--------------------------------------------------
+[7/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_TqJF5_ve9Og.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: People climb a waterfall ladder in a canyon.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 6  
+Reason: Identifies climbing; misinterprets location as irrelevant waterfall ladder, adding hallucinated canyon background.
+--------------------------------------------------
+[8/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_YJebNk-xtW4.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Child climbing a playground structure, partially exposed.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Accurately identifies climbing, but adds "playground structure" as unnecessary background detail.
+--------------------------------------------------
+[9/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_t3kdrXk1UmE.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Baby climbs playfully on a playground structure.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 4  
+Reason: Identifies climbing aspect but misplaces context; "playground structure" irrelevant.
+--------------------------------------------------
+[10/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_tgO4Gd4RhvM.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Pilot gripping the helicopter rotor during a descent.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: Description incorrect and irrelevant; mentions helicopter actions unrelated to climbing stair.
+--------------------------------------------------
+[11/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_tgb1QKhnTNs.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Man precariously climbing a ladder on a house.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Described climbing action, but confused context (ladder on a house) with irrelevant details.
+--------------------------------------------------
+[12/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_O2KVcp2DSMU.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Person jumps into the pool, ignoring the sign.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: Completely incorrect action; includes hallucinated details unrelated to climbing stair.
+--------------------------------------------------
+[13/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_nCkAH-GOiKk.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Baby climbs a ladder to reach the bed.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Correct climbing action, misidentified object as ladder and bed; relevant action mostly captured.
+--------------------------------------------------
+[14/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_XGsh-qzlVDg.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Baby climbs a wooden play structure.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 7  
+Reason: Correct action identified, but adds unnecessary detail by specifying "wooden play structure."
+--------------------------------------------------
+[15/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_NtxIjM4Ep-I.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Person hanging upside down from a bed frame.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: VLM failed to identify core action, described unrelated and incorrect scenario.
+--------------------------------------------------
+[16/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_o2yea5i4pCE.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: People navigate a colorful, inflatable obstacle course.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Misses core action (climbing stair); includes irrelevant details (colorful, inflatable obstacle course).
+--------------------------------------------------
+[17/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_WrzUzQP1e5c.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Woman climbing a column in a parking garage.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 4  
+Reason: Incorrect action identified; climbing column differs from climbing stair and includes irrelevant background detail.
+--------------------------------------------------
+[18/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_rAPn4neAa2g.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Firefighters practice ascending a building with a ladder.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 3  
+Reason: Identifies ascending action but incorrectly attributes it to a ladder, not stairs; involves hallucinated details.
+--------------------------------------------------
+[19/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_sT0iB6FU3Q4.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: People are carefully lowering someone from a ladder.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: Completely incorrect; describes lowering with a ladder, unrelated to climbing stairs.
+--------------------------------------------------
+[20/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_P-sEOFvqyJs.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Adult assisting child to climb a balance beam.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Incorrect core action identified; description includes hallucinated details not present in the ground truth.
+--------------------------------------------------
+[21/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_VNQ7-Wi2NP8.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Children attempt to climb a unique wooden structure.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 5  
+Reason: The action "climbing" is identified, but "stair" is missing. No hallucinations detected.
+--------------------------------------------------
+[22/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_GcNkZkwtf-4.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: People are repairing a large inflatable slide.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: The VLM description incorrectly identifies the action and introduces irrelevant details about an inflatable slide.
+--------------------------------------------------
+[23/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_6GiOBliwjpY.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Person climbing up a ladder to a bed.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 3  
+Reason: Misidentified action; "ladder to a bed" is inaccurate and irrelevant details present.
+--------------------------------------------------
+[24/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_o-mgS0Q44aU.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Young boy attempts to climb a bed frame.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Incorrect action identified; involves climbing, but "bed frame" is irrelevant/hallucinated.
+--------------------------------------------------
+[25/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_6sQmY1SZSso.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Dad helps a child climb a playground slide.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Incorrect action identified; slide climbing irrelevant and hallucinatory to stair context.
+--------------------------------------------------
+[26/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_S7V_2xXVS7o.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: A child is rescued from a deep well.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: The VLM's description completely misidentified the action and introduced unrelated content.
+--------------------------------------------------
+[27/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_dNFyRYw5Y-g.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: People are climbing and falling on a slide.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: VLM misidentified action as climbing and falling on a slide, not relevant to climbing stair.
+--------------------------------------------------
+[28/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_m8747rH8j18.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Man falls while attempting to slide down a structure.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 1  
+Reason: Incorrect action identified; description involves hallucination and irrelevant detail.
+--------------------------------------------------
+[29/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_AMNHzKDXdDY.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: People are climbing a colorful, netted carnival ride.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 6  
+Reason: Identified climbing, but added irrelevant "colorful, netted carnival ride" detail.
+--------------------------------------------------
+[30/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_9NYujWiizM0.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Father and daughter decorating a house exterior.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: The description failed to identify the action and added irrelevant details.
+--------------------------------------------------
+[31/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_gIBe9duO4zM.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Firefighters ascending a ladder truck for rescue.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 4  
+Reason: Misidentifies climbing stair as a ladder truck ascent; hallucination present with 'firefighters' and 'rescue'.
+--------------------------------------------------
+[32/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_XMOtW2lbByM.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Vehicle navigating a severely damaged, makeshift mountain road.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: VLM completely failed; described unrelated scene with hallucinated elements not present in the video.
+--------------------------------------------------
+[33/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_9tdT7Ao1cm0.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Child climbs a colorful, netted climbing structure.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 5  
+Reason: Mentions climbing, but describes a structure, not stairs; includes irrelevant detail "colorful, netted."
+--------------------------------------------------
+[34/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_uz76L8WDIjs.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Firefighters battling a large, intense building fire.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: No core action identified; irrelevant hallucination present.
+--------------------------------------------------
+[35/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_FI_V53QTeJ4.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Man clinging to a ladder in a vehicle.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Incorrect action identified; includes irrelevant details about a vehicle and ladder.
+--------------------------------------------------
+[36/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_TLP05gVp_BE.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Man balances on a ladder while waterskiing.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: Incorrect action, hallucinated description; no relevance to stair climbing.
+--------------------------------------------------
+[37/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_YOKhEMQyd30.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Baby climbs a wooden play structure steps.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Correct core action identified; slightly more specific context than needed, but no hallucinations.
+--------------------------------------------------
+[38/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_-vOIoARsw-U.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Person navigating a challenging aerial obstacle course.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Incorrect core action; description suggests aerial course, not relevant to climbing stairs.
+--------------------------------------------------
+[39/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_PDRjrn_jFME.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Man attempting a challenging wall-assisted pull-up.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Description incorrect, focusing on a different action and contains hallucinations.
+--------------------------------------------------
+[40/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_joKgUF_VWxg.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Child climbs a wooden ladder next to a bed.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 5  
+Reason: Incorrect core action identified; described climbing a ladder, not stairs. Contains irrelevant detail about the bed.
+--------------------------------------------------
+[41/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_SH4MC_P3S9I.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Child climbing a ladder against a wall.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 5  
+Reason: Identifies climbing; mistakes ladder for stair, introduces irrelevant wall, ambiguous setting.
+--------------------------------------------------
+[42/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_7SG0V2QFRhU.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Baby climbs on a ladder during decorating.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 6  
+Reason: Correct core action identified but included inaccurate detail—"ladder" not "stair" and added context irrelevant.
+--------------------------------------------------
+[43/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_XtEHiTcCUP0.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Adult upside down on a blue slide.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 1  
+Reason: No core action identified; includes hallucinated, irrelevant details (upside down, slide, blue).
+--------------------------------------------------
+[44/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_ekNWxAa4e4E.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Young boy precariously climbs a small step stool.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 6  
+Reason: Captures climbing but on different object; some irrelevant detail about young boy.
+--------------------------------------------------
+[45/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_PGksEB5oMF0.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Adult climbing under a playground slide.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 3  
+Reason: Incorrect action identified, with irrelevant details included. Does not match ground truth.
+--------------------------------------------------
+[46/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_AMTclv8FwDM.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Man climbing a ladder into a tree.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Incorrect action identified; description includes irrelevant details about a ladder and a tree.
+--------------------------------------------------
+[47/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_4H3jGhA0ix0.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Fire truck ladder extends towards a cloudy sky.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 0  
+Reason: Incorrect action described; irrelevant details about a fire truck ladder.
+--------------------------------------------------
+[48/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_TfBTcPcefSs.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Child climbs a colorful playground structure.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 8  
+Reason: Identified core action as climbing but misstated "structure" instead of "stair", no irrelevant details.
+--------------------------------------------------
+[49/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_w6Zg9pC_WAI.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Woman decorating a Christmas tree with a ladder.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 2  
+Reason: Incorrect action and includes irrelevant hallucinations about a Christmas tree and a ladder.
+--------------------------------------------------
+[50/50] 正在評估影片: ./dataset/climbing_stair/climbing_ladder_ZC8IsaZTSpU.mp4 (Ground Truth: climbing stair)
+🤖 VLM 回答內容: Man helps child climb a ladder precariously.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 GPT-5 評語:
+Score: 3  
+Reason: Misidentifies core action and includes irrelevant detail "ladder," instead of "stair," introducing hallucination.
+--------------------------------------------------

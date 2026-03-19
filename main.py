@@ -14,15 +14,15 @@ from PIL import Image
 
 print("torch version =", torch.__version__)
 print("cuda available =", torch.cuda.is_available())
-print("torch cuda version =", torch.version.cuda)
+print("torch cuda version =", torch.version.cuda, "\n")
 
-def sample_frames(video_path, num_frames=8):
+def sample_frames(video_path, num_frames = 8):
     """
     使用 decord 讀取影片並均勻抽幀
     """
     try:
         # decord 預設為 cpu 讀取，也可以指定 ctx=decord.gpu(0) 如果有需要
-        vr = decord.VideoReader(video_path, ctx=decord.cpu(0))
+        vr = decord.VideoReader(video_path, ctx = decord.cpu(0))
     except Exception as e:
         logging.error(f"⚠️ 無法讀取影片 {video_path}: {e}")
         return None
@@ -40,9 +40,9 @@ def sample_frames(video_path, num_frames=8):
     return pil_frames
 
 def main():
-    parser = argparse.ArgumentParser(description="Run VLM inference on videos")
-    parser.add_argument("--video_dir", type=str, default="./dataset/climbing_stair", help="Directory containing mp4/mkv files")
-    parser.add_argument("--model_id", type=str, default="google/gemma-3-4b-it", help="Hugging Face model ID")
+    parser = argparse.ArgumentParser(description = "Run VLM inference on videos")
+    parser.add_argument("--video_dir", type = str, default = "./dataset/climbing_stair", help = "Directory containing mp4/mkv files")
+    parser.add_argument("--model_id", type = str, default = "google/gemma-3-4b-it", help = "Hugging Face model ID")
     args = parser.parse_args()
 
     # 取得 ground_truth_name (將路徑最後的資料夾名稱視為 ground_truth)
@@ -58,7 +58,7 @@ def main():
     model_name = model_id.split("/")[-1] # 取出模型名稱作為資料夾名稱
 
     # 建立輸出目錄: model_name
-    os.makedirs(model_name, exist_ok=True)
+    os.makedirs(model_name, exist_ok = True)
     
     # 定義輸出的 log 檔案名稱
     # model_name/ground_truth_name.log
@@ -66,10 +66,10 @@ def main():
 
     # 設定 logging，同時將結果輸出到終端機與 log 檔案
     logging.basicConfig(
-        level=logging.INFO,
-        format='%(message)s', # 簡化輸出格式，移除 asctime 避免太冗長
-        handlers=[
-            logging.FileHandler(main_log_file, encoding="utf-8", mode='a'),
+        level = logging.INFO,
+        format = '%(message)s', # 簡化輸出格式，移除 asctime 避免太冗長
+        handlers = [
+            logging.FileHandler(main_log_file, encoding = "utf-8", mode = 'a'),
             logging.StreamHandler()
         ]
     )
@@ -78,7 +78,7 @@ def main():
 
     logging.info(f"載入模型與處理器: {model_id} ...")
     try:
-        processor = AutoProcessor.from_pretrained(model_id, token=hf_token)
+        processor = AutoProcessor.from_pretrained(model_id, token = hf_token)
         # 使用 bfloat16 以節省 VRAM 並加速
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
@@ -92,7 +92,7 @@ def main():
     
     # 尋找本地影片檔案，直接從 mp4 資料夾讀取
     video_dir = args.video_dir
-    video_paths = glob.glob(os.path.join(video_dir, "**/*.mp4"), recursive=True) + glob.glob(os.path.join(video_dir, "**/*.mkv"), recursive=True)
+    video_paths = glob.glob(os.path.join(video_dir, "**/*.mp4"), recursive = True) + glob.glob(os.path.join(video_dir, "**/*.mkv"), recursive = True)
         
     logging.info(f"從 {video_dir} 尋找，共找到 {len(video_paths)} 支影片。")
     print("video amounts: ", len(video_paths))
@@ -138,13 +138,13 @@ def main():
         
         try:
             # 使用 Chat Template 建立正確的 Prompt 格式
-            formatted_prompt = processor.apply_chat_template(messages, add_generation_prompt=True)
+            formatted_prompt = processor.apply_chat_template(messages, add_generation_prompt = True)
             
             # 使用 Device Map 將 Input 自動放到適合的 GPU/CPU
             inputs = processor(
-                text=formatted_prompt, 
-                images=frames, 
-                return_tensors="pt"
+                text = formatted_prompt, 
+                images = frames, 
+                return_tensors = "pt"
             ).to(model.device)
             
             # 將 bfloat16 用於 pixel_values（如果可用）以避免型別錯誤
@@ -158,15 +158,15 @@ def main():
             with torch.no_grad():
                 output_ids = model.generate(
                     **inputs,
-                    max_new_tokens=150,
-                    do_sample=False, # 設為 False 進行 Greedy Decode 確保測試的穩定性
-                    temperature=None,
-                    top_p=None
+                    max_new_tokens = 150,
+                    do_sample = False, # 設為 False 進行 Greedy Decode 確保測試的穩定性
+                    temperature = None,
+                    top_p = None
                 )
                 
             # 去除輸入 prompt 部分的 Token
             generated_ids = output_ids[0][inputs['input_ids'].shape[1]:]
-            response = processor.decode(generated_ids, skip_special_tokens=True)
+            response = processor.decode(generated_ids, skip_special_tokens = True)
             
             end_time = time.time()
             elapsed = end_time - start_time

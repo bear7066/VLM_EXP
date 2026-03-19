@@ -1,0 +1,434 @@
+載入模型與處理器: google/gemma-3-4b-it ...
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/processor_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/google/gemma-3-4b-it/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/processor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/chat_template.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/google/gemma-3-4b-it/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/processor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/chat_template.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/processor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/preprocessor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/processor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/preprocessor_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/google/gemma-3-4b-it/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/google/gemma-3-4b-it/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/google/gemma-3-4b-it "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/google/gemma-3-4b-it/resolve/main/generation_config.json "HTTP/1.1 200 OK"
+從 ./dataset/climbing_stair 尋找，共找到 514 支影片。
+開始測試，隨機抽取 50 支影片進行推論...
+==================================================
+[1/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_MYCbXYVc9Dg.mp4
+開始生成回答...
+⏱️ 耗時: 8.60 秒
+⚡ 速度: 1.16 tokens/sec (10 tokens)
+🤖 模型回答:
+Child playfully climbs and explores the bunk bed.
+------------------------------
+==================================================
+[2/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_Uz_MXVAY-o0.mp4
+開始生成回答...
+⏱️ 耗時: 8.37 秒
+⚡ 速度: 0.96 tokens/sec (8 tokens)
+🤖 模型回答:
+Child climbs a colorful playground structure.
+------------------------------
+==================================================
+[3/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_PuhNmqGQKdU.mp4
+開始生成回答...
+⏱️ 耗時: 8.58 秒
+⚡ 速度: 1.28 tokens/sec (11 tokens)
+🤖 模型回答:
+Man precariously balanced on a sloped ladder.
+------------------------------
+==================================================
+[4/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_-oTJpv9-94c.mp4
+開始生成回答...
+⏱️ 耗時: 8.50 秒
+⚡ 速度: 1.18 tokens/sec (10 tokens)
+🤖 模型回答:
+Man climbing a specialized, motorized ladder structure.
+------------------------------
+==================================================
+[5/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_soZe82Acqbc.mp4
+開始生成回答...
+⏱️ 耗時: 8.50 秒
+⚡ 速度: 1.18 tokens/sec (10 tokens)
+🤖 模型回答:
+Man climbing a fire escape on a building.
+------------------------------
+==================================================
+[6/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_MK-rJSH0bYI.mp4
+開始生成回答...
+⏱️ 耗時: 8.38 秒
+⚡ 速度: 0.95 tokens/sec (8 tokens)
+🤖 模型回答:
+Child climbs a colorful playground structure.
+------------------------------
+==================================================
+[7/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_TqJF5_ve9Og.mp4
+開始生成回答...
+⏱️ 耗時: 8.52 秒
+⚡ 速度: 1.17 tokens/sec (10 tokens)
+🤖 模型回答:
+People climb a waterfall ladder in a canyon.
+------------------------------
+==================================================
+[8/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_YJebNk-xtW4.mp4
+開始生成回答...
+⏱️ 耗時: 8.51 秒
+⚡ 速度: 1.18 tokens/sec (10 tokens)
+🤖 模型回答:
+Child climbing a playground structure, partially exposed.
+------------------------------
+==================================================
+[9/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_t3kdrXk1UmE.mp4
+開始生成回答...
+⏱️ 耗時: 8.47 秒
+⚡ 速度: 1.06 tokens/sec (9 tokens)
+🤖 模型回答:
+Baby climbs playfully on a playground structure.
+------------------------------
+==================================================
+[10/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_tgO4Gd4RhvM.mp4
+開始生成回答...
+⏱️ 耗時: 8.50 秒
+⚡ 速度: 1.18 tokens/sec (10 tokens)
+🤖 模型回答:
+Pilot gripping the helicopter rotor during a descent.
+------------------------------
+==================================================
+[11/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_tgb1QKhnTNs.mp4
+開始生成回答...
+⏱️ 耗時: 8.57 秒
+⚡ 速度: 1.28 tokens/sec (11 tokens)
+🤖 模型回答:
+Man precariously climbing a ladder on a house.
+------------------------------
+==================================================
+[12/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_O2KVcp2DSMU.mp4
+開始生成回答...
+⏱️ 耗時: 8.57 秒
+⚡ 速度: 1.28 tokens/sec (11 tokens)
+🤖 模型回答:
+Person jumps into the pool, ignoring the sign.
+------------------------------
+==================================================
+[13/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_nCkAH-GOiKk.mp4
+開始生成回答...
+⏱️ 耗時: 8.50 秒
+⚡ 速度: 1.18 tokens/sec (10 tokens)
+🤖 模型回答:
+Baby climbs a ladder to reach the bed.
+------------------------------
+==================================================
+[14/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_XGsh-qzlVDg.mp4
+開始生成回答...
+⏱️ 耗時: 8.39 秒
+⚡ 速度: 0.95 tokens/sec (8 tokens)
+🤖 模型回答:
+Baby climbs a wooden play structure.
+------------------------------
+==================================================
+[15/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_NtxIjM4Ep-I.mp4
+開始生成回答...
+⏱️ 耗時: 8.52 秒
+⚡ 速度: 1.17 tokens/sec (10 tokens)
+🤖 模型回答:
+Person hanging upside down from a bed frame.
+------------------------------
+==================================================
+[16/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_o2yea5i4pCE.mp4
+開始生成回答...
+⏱️ 耗時: 8.52 秒
+⚡ 速度: 1.17 tokens/sec (10 tokens)
+🤖 模型回答:
+People navigate a colorful, inflatable obstacle course.
+------------------------------
+==================================================
+[17/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_WrzUzQP1e5c.mp4
+開始生成回答...
+⏱️ 耗時: 8.51 秒
+⚡ 速度: 1.17 tokens/sec (10 tokens)
+🤖 模型回答:
+Woman climbing a column in a parking garage.
+------------------------------
+==================================================
+[18/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_rAPn4neAa2g.mp4
+開始生成回答...
+⏱️ 耗時: 8.60 秒
+⚡ 速度: 1.28 tokens/sec (11 tokens)
+🤖 模型回答:
+Firefighters practice ascending a building with a ladder.
+------------------------------
+==================================================
+[19/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_sT0iB6FU3Q4.mp4
+開始生成回答...
+⏱️ 耗時: 8.51 秒
+⚡ 速度: 1.18 tokens/sec (10 tokens)
+🤖 模型回答:
+People are carefully lowering someone from a ladder.
+------------------------------
+==================================================
+[20/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_P-sEOFvqyJs.mp4
+開始生成回答...
+⏱️ 耗時: 8.52 秒
+⚡ 速度: 1.17 tokens/sec (10 tokens)
+🤖 模型回答:
+Adult assisting child to climb a balance beam.
+------------------------------
+==================================================
+[21/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_VNQ7-Wi2NP8.mp4
+開始生成回答...
+⏱️ 耗時: 8.51 秒
+⚡ 速度: 1.17 tokens/sec (10 tokens)
+🤖 模型回答:
+Children attempt to climb a unique wooden structure.
+------------------------------
+==================================================
+[22/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_GcNkZkwtf-4.mp4
+開始生成回答...
+⏱️ 耗時: 8.46 秒
+⚡ 速度: 1.06 tokens/sec (9 tokens)
+🤖 模型回答:
+People are repairing a large inflatable slide.
+------------------------------
+==================================================
+[23/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_6GiOBliwjpY.mp4
+開始生成回答...
+⏱️ 耗時: 8.49 秒
+⚡ 速度: 1.18 tokens/sec (10 tokens)
+🤖 模型回答:
+Person climbing up a ladder to a bed.
+------------------------------
+==================================================
+[24/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_o-mgS0Q44aU.mp4
+開始生成回答...
+⏱️ 耗時: 8.52 秒
+⚡ 速度: 1.17 tokens/sec (10 tokens)
+🤖 模型回答:
+Young boy attempts to climb a bed frame.
+------------------------------
+==================================================
+[25/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_6sQmY1SZSso.mp4
+開始生成回答...
+⏱️ 耗時: 8.52 秒
+⚡ 速度: 1.17 tokens/sec (10 tokens)
+🤖 模型回答:
+Dad helps a child climb a playground slide.
+------------------------------
+==================================================
+[26/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_S7V_2xXVS7o.mp4
+開始生成回答...
+⏱️ 耗時: 8.52 秒
+⚡ 速度: 1.17 tokens/sec (10 tokens)
+🤖 模型回答:
+A child is rescued from a deep well.
+------------------------------
+==================================================
+[27/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_dNFyRYw5Y-g.mp4
+開始生成回答...
+⏱️ 耗時: 8.52 秒
+⚡ 速度: 1.17 tokens/sec (10 tokens)
+🤖 模型回答:
+People are climbing and falling on a slide.
+------------------------------
+==================================================
+[28/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_m8747rH8j18.mp4
+開始生成回答...
+⏱️ 耗時: 8.59 秒
+⚡ 速度: 1.28 tokens/sec (11 tokens)
+🤖 模型回答:
+Man falls while attempting to slide down a structure.
+------------------------------
+==================================================
+[29/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_AMNHzKDXdDY.mp4
+開始生成回答...
+⏱️ 耗時: 8.58 秒
+⚡ 速度: 1.28 tokens/sec (11 tokens)
+🤖 模型回答:
+People are climbing a colorful, netted carnival ride.
+------------------------------
+==================================================
+[30/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_9NYujWiizM0.mp4
+開始生成回答...
+⏱️ 耗時: 8.46 秒
+⚡ 速度: 1.06 tokens/sec (9 tokens)
+🤖 模型回答:
+Father and daughter decorating a house exterior.
+------------------------------
+==================================================
+[31/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_gIBe9duO4zM.mp4
+開始生成回答...
+⏱️ 耗時: 8.54 秒
+⚡ 速度: 1.17 tokens/sec (10 tokens)
+🤖 模型回答:
+Firefighters ascending a ladder truck for rescue.
+------------------------------
+==================================================
+[32/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_XMOtW2lbByM.mp4
+開始生成回答...
+⏱️ 耗時: 8.61 秒
+⚡ 速度: 1.28 tokens/sec (11 tokens)
+🤖 模型回答:
+Vehicle navigating a severely damaged, makeshift mountain road.
+------------------------------
+==================================================
+[33/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_9tdT7Ao1cm0.mp4
+開始生成回答...
+⏱️ 耗時: 8.52 秒
+⚡ 速度: 1.17 tokens/sec (10 tokens)
+🤖 模型回答:
+Child climbs a colorful, netted climbing structure.
+------------------------------
+==================================================
+[34/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_uz76L8WDIjs.mp4
+開始生成回答...
+⏱️ 耗時: 8.57 秒
+⚡ 速度: 1.28 tokens/sec (11 tokens)
+🤖 模型回答:
+Firefighters battling a large, intense building fire.
+------------------------------
+==================================================
+[35/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_FI_V53QTeJ4.mp4
+開始生成回答...
+⏱️ 耗時: 8.53 秒
+⚡ 速度: 1.17 tokens/sec (10 tokens)
+🤖 模型回答:
+Man clinging to a ladder in a vehicle.
+------------------------------
+==================================================
+[36/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_TLP05gVp_BE.mp4
+開始生成回答...
+⏱️ 耗時: 8.57 秒
+⚡ 速度: 1.28 tokens/sec (11 tokens)
+🤖 模型回答:
+Man balances on a ladder while waterskiing.
+------------------------------
+==================================================
+[37/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_YOKhEMQyd30.mp4
+開始生成回答...
+⏱️ 耗時: 8.46 秒
+⚡ 速度: 1.06 tokens/sec (9 tokens)
+🤖 模型回答:
+Baby climbs a wooden play structure steps.
+------------------------------
+==================================================
+[38/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_-vOIoARsw-U.mp4
+開始生成回答...
+⏱️ 耗時: 8.45 秒
+⚡ 速度: 1.07 tokens/sec (9 tokens)
+🤖 模型回答:
+Person navigating a challenging aerial obstacle course.
+------------------------------
+==================================================
+[39/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_PDRjrn_jFME.mp4
+開始生成回答...
+⏱️ 耗時: 8.64 秒
+⚡ 速度: 1.39 tokens/sec (12 tokens)
+🤖 模型回答:
+Man attempting a challenging wall-assisted pull-up.
+------------------------------
+==================================================
+[40/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_joKgUF_VWxg.mp4
+開始生成回答...
+⏱️ 耗時: 8.58 秒
+⚡ 速度: 1.28 tokens/sec (11 tokens)
+🤖 模型回答:
+Child climbs a wooden ladder next to a bed.
+------------------------------
+==================================================
+[41/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_SH4MC_P3S9I.mp4
+開始生成回答...
+⏱️ 耗時: 8.46 秒
+⚡ 速度: 1.06 tokens/sec (9 tokens)
+🤖 模型回答:
+Child climbing a ladder against a wall.
+------------------------------
+==================================================
+[42/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_7SG0V2QFRhU.mp4
+開始生成回答...
+⏱️ 耗時: 8.46 秒
+⚡ 速度: 1.06 tokens/sec (9 tokens)
+🤖 模型回答:
+Baby climbs on a ladder during decorating.
+------------------------------
+==================================================
+[43/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_XtEHiTcCUP0.mp4
+開始生成回答...
+⏱️ 耗時: 8.45 秒
+⚡ 速度: 1.07 tokens/sec (9 tokens)
+🤖 模型回答:
+Adult upside down on a blue slide.
+------------------------------
+==================================================
+[44/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_ekNWxAa4e4E.mp4
+開始生成回答...
+⏱️ 耗時: 8.58 秒
+⚡ 速度: 1.28 tokens/sec (11 tokens)
+🤖 模型回答:
+Young boy precariously climbs a small step stool.
+------------------------------
+==================================================
+[45/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_PGksEB5oMF0.mp4
+開始生成回答...
+⏱️ 耗時: 8.40 秒
+⚡ 速度: 0.95 tokens/sec (8 tokens)
+🤖 模型回答:
+Adult climbing under a playground slide.
+------------------------------
+==================================================
+[46/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_AMTclv8FwDM.mp4
+開始生成回答...
+⏱️ 耗時: 8.46 秒
+⚡ 速度: 1.06 tokens/sec (9 tokens)
+🤖 模型回答:
+Man climbing a ladder into a tree.
+------------------------------
+==================================================
+[47/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_4H3jGhA0ix0.mp4
+開始生成回答...
+⏱️ 耗時: 8.54 秒
+⚡ 速度: 1.17 tokens/sec (10 tokens)
+🤖 模型回答:
+Fire truck ladder extends towards a cloudy sky.
+------------------------------
+==================================================
+[48/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_TfBTcPcefSs.mp4
+開始生成回答...
+⏱️ 耗時: 8.40 秒
+⚡ 速度: 0.95 tokens/sec (8 tokens)
+🤖 模型回答:
+Child climbs a colorful playground structure.
+------------------------------
+==================================================
+[49/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_w6Zg9pC_WAI.mp4
+開始生成回答...
+⏱️ 耗時: 8.51 秒
+⚡ 速度: 1.17 tokens/sec (10 tokens)
+🤖 模型回答:
+Woman decorating a Christmas tree with a ladder.
+------------------------------
+==================================================
+[50/50] 處理影片: ./dataset/climbing_stair/climbing_ladder_ZC8IsaZTSpU.mp4
+開始生成回答...
+⏱️ 耗時: 8.51 秒
+⚡ 速度: 1.18 tokens/sec (10 tokens)
+🤖 模型回答:
+Man helps child climb a ladder precariously.
+------------------------------
+
+==================== 測試總結 ====================
+成功處理影片數  : 50 / 50
+總耗費時間      : 425.54 秒
+總生成 Tokens 數: 494
+平均每支影片耗時: 8.51 秒
+整體生成速度    : 1.16 tokens/sec
+GPU 最高記憶體佔用: 27.05 GB
+詳細測試結果已隨時記錄於 gemma-3-4b-it/climbing_stair.log
